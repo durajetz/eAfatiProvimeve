@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_primary_dark"
+    tools:context=".CalendarPickerActivity"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:fontFamily="sans-serif-smallcaps"
+        android:textStyle="italic"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"/>
+
+    <TextView android:id="@+id/myDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MM/dd/YYYY"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_calendar"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="wrap_content"
+            android:layout_height="320dp"
+            android:maxDate="12/31/2022"
+            android:minDate="01/01/2021">
+
+        </CalendarView>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/chooseBtn"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners"
+        android:text="OK"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

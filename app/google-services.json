@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "167939951519",
+    "project_id": "eafatiprovimeve",
+    "storage_bucket": "eafatiprovimeve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167939951519:android:bf262c89bacde251240baa",
+        "android_client_info": {
+          "package_name": "com.example.eafatiprovimeve"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167939951519-c0jpuonfq1e4mc244qb8rj7kde1jb0if.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eafatiprovimeve",
+            "certificate_hash": "1d8c0e092d97f34eddad0cf416c68cb6db1bafc5"
+          }
+        },
+        {
+          "client_id": "167939951519-qmcrc8ma5hmjjqf73eeh2aefavblos9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLKh-hMh_VNwurAzh49H7u-gHxI1E_p20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167939951519-qmcrc8ma5hmjjqf73eeh2aefavblos9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
