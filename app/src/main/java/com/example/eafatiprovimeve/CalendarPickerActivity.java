@@ -111,7 +111,7 @@ public class CalendarPickerActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         // Write your code here to execute after dialog
                         Toast.makeText(getApplicationContext(),
-                                "You clicked on NO", Toast.LENGTH_SHORT)
+                                "You clicked NO", Toast.LENGTH_SHORT)
                                 .show();
                         dialog.cancel();
                     }

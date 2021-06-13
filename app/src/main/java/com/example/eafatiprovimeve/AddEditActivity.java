@@ -57,15 +57,36 @@ public class AddEditActivity extends AppCompatActivity {
     }
 
     private void saveProvimi(){
+
         String name = editTextName.getText().toString();
         String dita = editTextDita.getText().toString();
         int diferenca = Integer.parseInt(editTextDiferenca.getText().toString());
         int viti = Integer.parseInt(editTextViti.getText().toString());
         int semestri = Integer.parseInt(editTextSemestri.getText().toString());
 
-        if (name.trim().isEmpty() || dita.trim().isEmpty()){
-            Toast.makeText(this, "Please insert a name and the day", Toast.LENGTH_SHORT).show();
+
+        if (name.trim().isEmpty()) {
+            editTextName.setError("Email is required!");
+            editTextName.requestFocus();
             return;
+        }else if(dita.trim().isEmpty()) {
+            editTextDita.setError("Dita is required!");
+            editTextDita.requestFocus();
+            return;
+        }else if (editTextDiferenca.getText().toString().trim().isEmpty()){
+            editTextDiferenca.setError("Difference is required!");
+            editTextDiferenca.requestFocus();
+            return;
+        }else if (editTextViti.getText().toString().trim().isEmpty()){
+            editTextViti.setError("Year is required!");
+            editTextViti.requestFocus();
+            return;
+        }else if (editTextSemestri.getText().toString().trim().isEmpty()){
+            editTextSemestri.setError("Semester year is required!");
+            editTextSemestri.requestFocus();
+            return;
+        }else {
+            Toast.makeText(this,"Error occured, fill all the field!", Toast.LENGTH_SHORT).show();
         }
 
         Intent data = new Intent();
@@ -95,7 +116,7 @@ public class AddEditActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.save_provimi:
-                saveProvimi();
+                    saveProvimi();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
