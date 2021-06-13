@@ -54,7 +54,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:fontFamily="monospace"
-            android:text="MM/dd/YYYY"
+            android:text="MM-dd-YYYY"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold" />

@@ -22,7 +22,7 @@
     <TextView android:id="@+id/myDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MM/dd/YYYY"
+        android:text="MM-dd-YYYY"
         android:textStyle="bold"
         android:fontFamily="monospace"
         android:textColor="@color/white"
