@@ -162,8 +162,8 @@ public class MainActivity extends AppCompatActivity {
                             intent.putExtra(CalendarContract.Reminders.METHOD, CalendarContract.Reminders.METHOD_ALERT);
 
                             if (intent.resolveActivity(getPackageManager()) != null) {
-                                startActivity(intent);
                                 afatiProvimeveModel.delete(adapter.getProvimiAt(position));
+                                startActivity(intent);
                             } else {
                                 Toast.makeText(MainActivity.this, "There is no app that can support this action", Toast.LENGTH_SHORT).show();
                             }
