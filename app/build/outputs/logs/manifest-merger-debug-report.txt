@@ -11,6 +11,8 @@ MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\ca
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:17:1-40:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\4baf466b704730ecc642941cb8ad7409\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0da28cd9ea688fd800e89ab10c626d9e\recyclerview-swipedecorator-1.2.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\cb99a29763aa7ebf52a43725046ac902\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -61,6 +63,7 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\livec\.gradle\ca
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3beecf4f2cc1155a8fc167b059e7e9c5\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\12f5baadd5d1a3a114f657a42ab1cdfa\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ad4d950bb850d69a3265990b7445dc0b\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0bfe4d90cbc70622d031ced7288387d1\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-33:12
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-33:12
@@ -100,6 +103,8 @@ MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.g
 MERGED from [com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:22:5-38:19
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9ace64ef20aabba8ff19d02c5098c10f\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9ace64ef20aabba8ff19d02c5098c10f\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
@@ -186,6 +191,10 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\livec\.gradle\cac
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\4baf466b704730ecc642941cb8ad7409\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:5:5-43
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0da28cd9ea688fd800e89ab10c626d9e\recyclerview-swipedecorator-1.2.2\AndroidManifest.xml:7:5-9:41
@@ -286,6 +295,8 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\livec\.gradle\caches\transform
 MERGED from [androidx.print:print:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\12f5baadd5d1a3a114f657a42ab1cdfa\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ad4d950bb850d69a3265990b7445dc0b\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ad4d950bb850d69a3265990b7445dc0b\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0bfe4d90cbc70622d031ced7288387d1\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0bfe4d90cbc70622d031ced7288387d1\exifinterface-27.1.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
@@ -408,6 +419,14 @@ ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\tran
 		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
 	android:name
 		ADDED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:9:13-64
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported

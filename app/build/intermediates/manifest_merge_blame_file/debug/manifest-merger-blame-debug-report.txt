@@ -215,34 +215,43 @@
 117            android:exported="false" />
 117-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
 118
-119        <activity
-119-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-120            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-120-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-121            android:exported="false"
-121-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-122            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-122-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+119        <provider
+119-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+120            android:name="com.squareup.picasso.PicassoProvider"
+120-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:9:13-64
+121            android:authorities="com.example.eafatiprovimeve.com.squareup.picasso"
+121-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:10:13-72
+122            android:exported="false" />
+122-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:11:13-37
 123
-124        <provider
-124-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-125            android:name="com.google.firebase.provider.FirebaseInitProvider"
-125-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-126            android:authorities="com.example.eafatiprovimeve.firebaseinitprovider"
-126-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-127            android:directBootAware="true"
-127-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-128            android:exported="false"
-128-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-129            android:initOrder="100" />
-129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-130
-131        <meta-data
-131-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-132            android:name="com.google.android.gms.version"
-132-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
-133            android:value="@integer/google_play_services_version" />
-133-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-134    </application>
+124        <activity
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+131            android:authorities="com.example.eafatiprovimeve.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+132            android:directBootAware="true"
+132-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 135
-136</manifest>
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+139    </application>
+140
+141</manifest>

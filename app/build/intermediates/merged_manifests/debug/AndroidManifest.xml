@@ -116,6 +116,11 @@
             android:directBootAware="true"
             android:exported="false" />
 
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.eafatiprovimeve.com.squareup.picasso"
+            android:exported="false" />
+
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

@@ -19,6 +19,8 @@ com/example/eafatiprovimeve/RecyclerViewSwipeDecorator.java
  com.example.eafatiprovimeve.RecyclerViewSwipeDecorator$Builder
 com/example/eafatiprovimeve/AfatiProvimeveAdapter.java
  com.example.eafatiprovimeve.AfatiProvimeveAdapter
+ com.example.eafatiprovimeve.AfatiProvimeveAdapter$1
+ com.example.eafatiprovimeve.AfatiProvimeveAdapter$1$1
  com.example.eafatiprovimeve.AfatiProvimeveAdapter$OnItemClickListener
  com.example.eafatiprovimeve.AfatiProvimeveAdapter$ProvimiHolder
  com.example.eafatiprovimeve.AfatiProvimeveAdapter$ProvimiHolder$1

@@ -1,16 +1,5 @@
 package com.example.eafatiprovimeve;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
-import androidx.lifecycle.Observer;
-import androidx.lifecycle.ViewModelProvider;
-import androidx.recyclerview.widget.ItemTouchHelper;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
@@ -32,6 +21,17 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+import androidx.lifecycle.Observer;
+import androidx.lifecycle.ViewModelProvider;
+import androidx.recyclerview.widget.ItemTouchHelper;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
@@ -46,6 +46,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MainActivity extends AppCompatActivity {
+    private AfatiProvimeveAdapter adapter;
+    private static final String TAG = "MainActivity";
     private FirebaseAuth mAuth;
 
     public static final String LOCATION_EVENT = "Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike,Universiteti i Prishtinës";
@@ -145,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
                         Pattern p = Pattern.compile("@?(gmail|googlemail).com$");
                         Matcher m = p.matcher(email.split("@")[1]);
                         if (!m.matches()) {
-                            addEvent(getApplicationContext(), adapter.getProvimiAt(position).getName(), datagjeneruar.getText().toString(),adapter.getProvimiAt(position).getDita());
+                            addEvent(getApplicationContext(), adapter.getProvimiAt(position).getName(), datagjeneruar.getText().toString(), adapter.getProvimiAt(position).getDita());
                             afatiProvimeveModel.delete(adapter.getProvimiAt(position));
 //                            Toast.makeText(MainActivity.this, "email", Toast.LENGTH_SHORT).show();
                         } else {
@@ -300,7 +302,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void addEvent(Context ctx, String title, String startDate,String description) {
+    public void addEvent(Context ctx, String title, String startDate, String description) {
 
         ContentResolver contentResolver = ctx.getContentResolver();
 
@@ -328,7 +330,6 @@ public class MainActivity extends AppCompatActivity {
         reminders.put(CalendarContract.Reminders.MINUTES, 30);
         Uri uri1 = contentResolver.insert(CalendarContract.Reminders.CONTENT_URI, reminders);
     }
-
 
     public long getMilliSeconds(String date) {
         Date dateSample = null;

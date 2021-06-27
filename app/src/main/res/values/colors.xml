@@ -16,4 +16,6 @@
     <color name="GoogleTextColor">#444444</color>
     <color name="orange">#FF7F50</color>
     <color name="cyan">#00FFFF</color>
+    <color name="grey_date">#e6e6e6</color>
+    <color name="grey_title">#f7f7f7</color>
 </resources>

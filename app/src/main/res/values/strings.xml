@@ -2,4 +2,7 @@
     <string name="app_name">eAfatiProvimeve</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="row_title">Title</string>
+    <string name="row_date">MM/dd/yyyy</string>
+    <string name="row_day">M4</string>
 </resources>

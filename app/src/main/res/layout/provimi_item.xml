@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginEnd="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginStart="8dp">
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgProvimi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_placeholder"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg_effect"/>
 
     <RelativeLayout android:id="@+id/mainLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp">
 
-
         <TextView
             android:id="@+id/text_view_emri"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Title"
-            android:textStyle="bold"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:maxLines="1"
-            android:layout_toStartOf="@+id/text_view_dita"
             android:layout_alignParentStart="true"
-            android:ellipsize="end"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="55dp"
+            android:layout_toStartOf="@+id/text_view_dita"
             android:layout_toLeftOf="@+id/text_view_dita"
-            android:layout_alignParentLeft="true" />
+            android:text="@string/row_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:textColor="@color/grey_title"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/text_view_datagjeneruar"
-            android:layout_marginTop="10dp"
-            android:textSize="22dp"
+            android:textSize="22sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_emri"
-            android:text="MM/dd/yyyy"
+            android:text="@string/row_date"
+            android:textColor="@color/grey_date"
             />
         <TextView
+            android:background="@drawable/tv_circle_shape"
             android:id="@+id/text_view_dita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:text="M4"
-            android:layout_marginEnd="10dp"
+            android:textStyle="bold"
+            android:text="@string/row_day"
             android:textSize="20sp"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp" />
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:padding="5dp"/>
 
 
 
