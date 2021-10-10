@@ -1,9 +1,10 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\22982307629ff1610815c90b5a8333f8\viewbinding-4.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9feb6959001be92bd2244dcada9857da\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3b8298ded0b2d9e0de82d72f7d2d83ac\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\48b4b0187e14710b58f428dfadc2260b\appcompat-1.3.0\AndroidManifest.xml:17:1-24:12
@@ -13,6 +14,8 @@ MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\livec\.gradle\cac
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:2:1-14:12
 MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0da28cd9ea688fd800e89ab10c626d9e\recyclerview-swipedecorator-1.2.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\cb99a29763aa7ebf52a43725046ac902\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -64,43 +67,41 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\livec\.gradle\ca
 MERGED from [androidx.print:print:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\12f5baadd5d1a3a114f657a42ab1cdfa\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ad4d950bb850d69a3265990b7445dc0b\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0bfe4d90cbc70622d031ced7288387d1\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:11:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:6:5-73
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:12:5-73
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:6:22-70
-queries
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:7:5-12:15
-intent#action:name:android.intent.action.INSERT
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:8:9-11:18
-action#android.intent.action.INSERT
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:9:13-66
-	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:9:21-64
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:12:22-70
 application
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:13:5-36:19
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:14:5-48:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9feb6959001be92bd2244dcada9857da\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9feb6959001be92bd2244dcada9857da\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3b8298ded0b2d9e0de82d72f7d2d83ac\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -113,6 +114,10 @@ MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\tra
 MERGED from [androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:24:5-29:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:9:5-13:19
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9ace64ef20aabba8ff19d02c5098c10f\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9ace64ef20aabba8ff19d02c5098c10f\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:22:5-27:19
@@ -132,59 +137,75 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\li
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.5.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\c7ef75b126c8b6bfe64df1480ebbdd5a\core-1.5.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:19:9-53
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:20:9-53
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:22:9-24:55
+	android:value
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:23:13-58
+activity#com.example.eafatiprovimeve.MapsActivity
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-28:57
+	android:parentActivityName
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:13-55
+	android:label
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-47
 activity#com.example.eafatiprovimeve.CalendarPickerActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:20:9-60
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:9-60
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:20:19-57
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:19-57
 activity#com.example.eafatiprovimeve.MainActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:21:9-23:68
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:9-32:68
 	android:parentActivityName
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:23:13-65
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:13-41
 activity#com.example.eafatiprovimeve.AddEditActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:9-25:57
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:9-35:58
 	android:parentActivityName
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:25:13-55
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:35:13-55
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:19-50
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:34:13-44
 activity#com.example.eafatiprovimeve.RegisterActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-27:52
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:36:9-38:52
 	android:screenOrientation
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:37:13-45
 activity#com.example.eafatiprovimeve.LoginActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:9-35:20
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:39:9-47:20
 	android:screenOrientation
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:13-49
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:19-48
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:40:13-42
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:17-69
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:17-77
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:27-74
 uses-sdk
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\22982307629ff1610815c90b5a8333f8\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.2.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\22982307629ff1610815c90b5a8333f8\viewbinding-4.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9feb6959001be92bd2244dcada9857da\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9feb6959001be92bd2244dcada9857da\material-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3b8298ded0b2d9e0de82d72f7d2d83ac\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -203,6 +224,10 @@ MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:5:5-44
 MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:5:5-43
 MERGED from [com.android.volley:volley:1.2.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f95a2cd7565623e07f790930ad7512e7\volley-1.2.0\AndroidManifest.xml:5:5-43
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\39476674c0d31301ff410315183426d1\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [it.xabaras.android:recyclerview-swipedecorator:1.2.2] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\0da28cd9ea688fd800e89ab10c626d9e\recyclerview-swipedecorator-1.2.2\AndroidManifest.xml:7:5-9:41
@@ -317,6 +342,8 @@ INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\
 		INJECTED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:23:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
 activity#com.google.firebase.auth.internal.GenericIdpActivity
@@ -435,6 +462,32 @@ ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:11:13-37
 	android:name
 		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:9:13-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:28:9-32
+queries
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:30:5-34:15
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:12:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:11:13-58
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -455,9 +508,3 @@ ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\c
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.1.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e1cd6e6fbe6209a98f305486cbc88522\play-services-basement-17.1.1\AndroidManifest.xml:24:13-58

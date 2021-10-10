@@ -6,13 +6,13 @@
     <ImageView
         android:id="@+id/imgProvimi"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="170dp"
         android:scaleType="centerCrop"
         android:src="@drawable/ic_placeholder"/>
 
     <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="170dp"
         android:background="@drawable/bg_effect"/>
 
     <RelativeLayout android:id="@+id/mainLayout"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
-            android:layout_marginTop="55dp"
+            android:layout_marginTop="50dp"
             android:layout_toStartOf="@+id/text_view_dita"
             android:layout_toLeftOf="@+id/text_view_dita"
             android:text="@string/row_title"

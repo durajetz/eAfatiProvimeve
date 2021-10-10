@@ -2,7 +2,6 @@ package com.example.eafatiprovimeve;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
-import android.content.ActivityNotFoundException;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
@@ -152,20 +151,23 @@ public class MainActivity extends AppCompatActivity {
                             afatiProvimeveModel.delete(adapter.getProvimiAt(position));
 //                            Toast.makeText(MainActivity.this, "email", Toast.LENGTH_SHORT).show();
                         } else {
-                            Intent intent = new Intent(Intent.ACTION_INSERT)
-                                    .setData(CalendarContract.Events.CONTENT_URI)
-                                    .putExtra(CalendarContract.Events.TITLE, adapter.getProvimiAt(position).getName())
-                                    .putExtra(CalendarContract.Events.EVENT_LOCATION, LOCATION_EVENT)
-                                    .putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, getMilliSeconds(datagjeneruar.getText().toString()) + 9000 * 60 * 60)
-                                    .putExtra(CalendarContract.EXTRA_EVENT_END_TIME, getMilliSeconds(datagjeneruar.getText().toString()) + 9000 * 60 * 60 + (2000 * 60 * 60))
-//                                    .putExtra(Intent.EXTRA_EMAIL, "eti1375@gmail.com,jbtf2015@gmail.com"); //add invitations
-                                    .putExtra(CalendarContract.Reminders.MINUTES, 30)
-                                    .putExtra(CalendarContract.Reminders.METHOD, CalendarContract.Reminders.METHOD_ALERT);
+                            Intent intent = new Intent(Intent.ACTION_INSERT);
+                            intent.setData(CalendarContract.Events.CONTENT_URI);
+                            intent.putExtra(CalendarContract.Events.TITLE, adapter.getProvimiAt(position).getName());
+                            intent.putExtra(CalendarContract.Events.EVENT_LOCATION, LOCATION_EVENT);
+
+                            intent.putExtra(CalendarContract.EXTRA_EVENT_BEGIN_TIME, getMilliSeconds(datagjeneruar.getText().toString()) + 9000 * 60 * 60);
+                            intent.putExtra(CalendarContract.EXTRA_EVENT_END_TIME, getMilliSeconds(datagjeneruar.getText().toString()) + 9000 * 60 * 60 + (2000 * 60 * 60));//add required delay
+
+//                    intent.putExtra(Intent.EXTRA_EMAIL, "eti1375@gmail.com,jbtf2015@gmail.com"); //add invitations
+                            intent.putExtra(CalendarContract.Reminders.MINUTES, 30);
+                            intent.putExtra(CalendarContract.Reminders.METHOD, CalendarContract.Reminders.METHOD_ALERT);
+
                             try {
-                                startActivity(intent);
                                 afatiProvimeveModel.delete(adapter.getProvimiAt(position));
-                            } catch (ActivityNotFoundException e) {
-                                Toast.makeText(getApplicationContext(), "There is no app that can support this action", Toast.LENGTH_SHORT).show();
+                                startActivity(intent);
+                            }catch (Exception e){
+                                Toast.makeText(MainActivity.this, "There is no app that can support this action", Toast.LENGTH_SHORT).show();
                             }
 //                            Toast.makeText(MainActivity.this, "gmail", Toast.LENGTH_SHORT).show();
                             break;
@@ -232,6 +234,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
         menuInflater.inflate(R.menu.delete_all_menu, menu);
+        menuInflater.inflate(R.menu.googlemap, menu);
         return true;
     }
 
@@ -241,6 +244,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.delete_all_provimet:
                 afatiProvimeveModel.deleteAllProvimet();
                 Toast.makeText(this, "All notes deleted", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.location:
+                startActivity(new Intent(MainActivity.this, MapsActivity.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
