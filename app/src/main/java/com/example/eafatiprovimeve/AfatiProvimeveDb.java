@@ -49,12 +49,9 @@ public abstract class AfatiProvimeveDb extends RoomDatabase {
             afatiProvimeveDao.insert(new AfatiProvimeve("MM",3,5, "E2",10));
             afatiProvimeveDao.insert(new AfatiProvimeve("DIST",3,6, "M4",22));
             afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik1",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik2",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik3",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik4",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik5",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik6",2,3, "P4",25));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Sinjalet dhe Sistemet",2,3, "MK3",16));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Praktika profesionale",2,3, "MK4",23));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Programimi Paisjeve Mobile",2,3, "H4",21));
             return null;
         }
     }
