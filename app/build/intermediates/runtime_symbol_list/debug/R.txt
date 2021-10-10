@@ -2530,6 +2530,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f0f0072
 int string mtrl_picker_toggle_to_day_selection 0x7f0f0073
 int string mtrl_picker_toggle_to_text_input_mode 0x7f0f0074
 int string mtrl_picker_toggle_to_year_selection 0x7f0f0075
+int string myDate 0x7f0f0081
 int string password_toggle_content_description 0x7f0f0076
 int string path_password_eye 0x7f0f0077
 int string path_password_eye_mask_strike_through 0x7f0f0078

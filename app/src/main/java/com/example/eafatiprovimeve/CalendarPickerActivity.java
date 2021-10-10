@@ -1,25 +1,22 @@
 package com.example.eafatiprovimeve;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CalendarView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -65,10 +62,15 @@ public class CalendarPickerActivity extends AppCompatActivity {
         btnOk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                String s = getString(R.string.myDate);
+                if(myDate.getText().toString().equals(s)){
+                    Toast.makeText(CalendarPickerActivity.this, "Please pick a date to continue!", Toast.LENGTH_SHORT).show();
+                }else {
                 editor.putString(DATE_SHARED_PREFERENCE, myDate.getText().toString());
                 editor.apply();
 
                 startActivity(new Intent(CalendarPickerActivity.this, MainActivity.class));
+                }
 //                finish();
             }
         });
@@ -106,7 +108,6 @@ public class CalendarPickerActivity extends AppCompatActivity {
         alertDialog2.setPositiveButton("YES",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        // Write your code here to execute after dialog
                         FirebaseAuth.getInstance().signOut();
                         startActivity(new Intent(CalendarPickerActivity.this, LoginActivity.class));
                         finish();
@@ -117,7 +118,6 @@ public class CalendarPickerActivity extends AppCompatActivity {
         alertDialog2.setNegativeButton("NO",
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
-                        // Write your code here to execute after dialog
                         Toast.makeText(getApplicationContext(),
                                 "You clicked NO", Toast.LENGTH_SHORT)
                                 .show();

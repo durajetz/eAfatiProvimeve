@@ -7,11 +7,13 @@ com/example/eafatiprovimeve/MainActivity.java
  com.example.eafatiprovimeve.MainActivity$3
  com.example.eafatiprovimeve.MainActivity$4
  com.example.eafatiprovimeve.MainActivity$4$1
-com/example/eafatiprovimeve/ResetPasswordFragment.java
- com.example.eafatiprovimeve.ResetPasswordFragment
- com.example.eafatiprovimeve.ResetPasswordFragment$1
- com.example.eafatiprovimeve.ResetPasswordFragment$2
- com.example.eafatiprovimeve.ResetPasswordFragment$3
+com/example/eafatiprovimeve/AfatiProvimeveRepository.java
+ com.example.eafatiprovimeve.AfatiProvimeveRepository
+ com.example.eafatiprovimeve.AfatiProvimeveRepository$1
+ com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteAllProvimiAsyncTask
+ com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteProvimiAsyncTask
+ com.example.eafatiprovimeve.AfatiProvimeveRepository$InsertProvimiAsyncTask
+ com.example.eafatiprovimeve.AfatiProvimeveRepository$UpdateProvimiAsyncTask
 com/example/eafatiprovimeve/RecyclerViewSwipeDecorator.java
  com.example.eafatiprovimeve.RecyclerViewSwipeDecorator
  com.example.eafatiprovimeve.RecyclerViewSwipeDecorator$Builder
@@ -39,19 +41,17 @@ com/example/eafatiprovimeve/BuildConfig.java
  com.example.eafatiprovimeve.BuildConfig
 com/example/eafatiprovimeve/AfatiProvimeve.java
  com.example.eafatiprovimeve.AfatiProvimeve
-com/example/eafatiprovimeve/RegisterActivity.java
- com.example.eafatiprovimeve.RegisterActivity
- com.example.eafatiprovimeve.RegisterActivity$1
-com/example/eafatiprovimeve/AddEditActivity.java
- com.example.eafatiprovimeve.AddEditActivity
 com/example/eafatiprovimeve/AfatiProvimeveDb.java
  com.example.eafatiprovimeve.AfatiProvimeveDb
  com.example.eafatiprovimeve.AfatiProvimeveDb$1
  com.example.eafatiprovimeve.AfatiProvimeveDb$PopulateDbAsyncTask
-com/example/eafatiprovimeve/AfatiProvimeveRepository.java
- com.example.eafatiprovimeve.AfatiProvimeveRepository
- com.example.eafatiprovimeve.AfatiProvimeveRepository$1
- com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteAllProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$InsertProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$UpdateProvimiAsyncTask
+com/example/eafatiprovimeve/AddEditActivity.java
+ com.example.eafatiprovimeve.AddEditActivity
+com/example/eafatiprovimeve/ResetPasswordFragment.java
+ com.example.eafatiprovimeve.ResetPasswordFragment
+ com.example.eafatiprovimeve.ResetPasswordFragment$1
+ com.example.eafatiprovimeve.ResetPasswordFragment$2
+ com.example.eafatiprovimeve.ResetPasswordFragment$3
+com/example/eafatiprovimeve/RegisterActivity.java
+ com.example.eafatiprovimeve.RegisterActivity
+ com.example.eafatiprovimeve.RegisterActivity$1
