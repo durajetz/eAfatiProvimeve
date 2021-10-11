@@ -40,5 +40,12 @@ You can download apk file **[here](https://github.com/durajetz/eAfatiProvimeve/r
 Currently **eAfatiProvimeve** is implemented only for FIEK bachelor exams based on **[Exam schedule](https://fiek.uni-pr.edu/desk/inc/media/CFBB3C9D-3688-4C00-9CE8-397BB1FF12B2.pdf)**.
 
 >e.g. The exam deadline starts on September 27 (*The first Monday*), 2021
-based on the **Exam schedule** the exam *'Data Mining'* is held on the **2nd TUESDAY**
+based on the **Exam schedule** the exam *'Data Mining'* is held on the **2nd TUESDAY** (05.10.2021)
 so eAfatiProvimeve automatically generates the correct date and fills the fields of event with date,location,start time and end time for that particular exam.
+
+<p align="center">
+  <img src="https://media3.giphy.com/media/vzFrPs1rhc9MV2j5RG/giphy.gif?cid=790b761187058c43228b6873a322bd27311c4b91b078bf7f&rid=giphy.gif&ct=g" alt="Test preview"/>
+</p>
+
+---
+Uni project, to be continued.
