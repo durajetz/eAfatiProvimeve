@@ -60,16 +60,16 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_location_on_24.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_save.png"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_close.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_close.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_save.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exit.png.flat",
@@ -84,20 +84,20 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_edit.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_event.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_event.png"
-    },
-    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\layout\\activity_maps.xml"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_event.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_event.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_close.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_placeholder.png.flat",

@@ -1,87 +1,87 @@
 com/example/eafatiprovimeve/databinding/ProvimiItemBinding.java
  com.example.eafatiprovimeve.databinding.ProvimiItemBinding
+com/example/eafatiprovimeve/View/CalendarPickerActivity.java
+ com.example.eafatiprovimeve.View.CalendarPickerActivity
+ com.example.eafatiprovimeve.View.CalendarPickerActivity$1
+ com.example.eafatiprovimeve.View.CalendarPickerActivity$2
+ com.example.eafatiprovimeve.View.CalendarPickerActivity$3
+ com.example.eafatiprovimeve.View.CalendarPickerActivity$4
 com/example/eafatiprovimeve/databinding/ActivityRegisterBinding.java
  com.example.eafatiprovimeve.databinding.ActivityRegisterBinding
 com/example/eafatiprovimeve/databinding/ActivityAddEditBinding.java
  com.example.eafatiprovimeve.databinding.ActivityAddEditBinding
-com/example/eafatiprovimeve/MapsFragment.java
- com.example.eafatiprovimeve.MapsFragment
- com.example.eafatiprovimeve.MapsFragment$1
-com/example/eafatiprovimeve/AfatiProvimeveRepository.java
- com.example.eafatiprovimeve.AfatiProvimeveRepository
- com.example.eafatiprovimeve.AfatiProvimeveRepository$1
- com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteAllProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$DeleteProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$InsertProvimiAsyncTask
- com.example.eafatiprovimeve.AfatiProvimeveRepository$UpdateProvimiAsyncTask
-com/example/eafatiprovimeve/AfatiProvimeveAdapter.java
- com.example.eafatiprovimeve.AfatiProvimeveAdapter
- com.example.eafatiprovimeve.AfatiProvimeveAdapter$1
- com.example.eafatiprovimeve.AfatiProvimeveAdapter$1$1
- com.example.eafatiprovimeve.AfatiProvimeveAdapter$OnItemClickListener
- com.example.eafatiprovimeve.AfatiProvimeveAdapter$ProvimiHolder
- com.example.eafatiprovimeve.AfatiProvimeveAdapter$ProvimiHolder$1
-com/example/eafatiprovimeve/CalendarPickerActivity.java
- com.example.eafatiprovimeve.CalendarPickerActivity
- com.example.eafatiprovimeve.CalendarPickerActivity$1
- com.example.eafatiprovimeve.CalendarPickerActivity$2
- com.example.eafatiprovimeve.CalendarPickerActivity$3
- com.example.eafatiprovimeve.CalendarPickerActivity$4
-com/example/eafatiprovimeve/LoginActivity.java
- com.example.eafatiprovimeve.LoginActivity
- com.example.eafatiprovimeve.LoginActivity$1
- com.example.eafatiprovimeve.LoginActivity$2
- com.example.eafatiprovimeve.LoginActivity$3
+com/example/eafatiprovimeve/View/AddEditActivity.java
+ com.example.eafatiprovimeve.View.AddEditActivity
+com/example/eafatiprovimeve/View/MapsFragment.java
+ com.example.eafatiprovimeve.View.MapsFragment
+ com.example.eafatiprovimeve.View.MapsFragment$1
+com/example/eafatiprovimeve/Utils/RecyclerViewSwipeDecorator.java
+ com.example.eafatiprovimeve.Utils.RecyclerViewSwipeDecorator
+ com.example.eafatiprovimeve.Utils.RecyclerViewSwipeDecorator$Builder
+com/example/eafatiprovimeve/ViewModel/ClustersItem.java
+ com.example.eafatiprovimeve.ViewModel.ClustersItem
+com/example/eafatiprovimeve/View/ResetPasswordFragment.java
+ com.example.eafatiprovimeve.View.ResetPasswordFragment
+ com.example.eafatiprovimeve.View.ResetPasswordFragment$1
+ com.example.eafatiprovimeve.View.ResetPasswordFragment$2
+ com.example.eafatiprovimeve.View.ResetPasswordFragment$3
 com/example/eafatiprovimeve/databinding/LoginformBinding.java
  com.example.eafatiprovimeve.databinding.LoginformBinding
 com/example/eafatiprovimeve/databinding/FragmentResetPasswordBinding.java
  com.example.eafatiprovimeve.databinding.FragmentResetPasswordBinding
-com/example/eafatiprovimeve/AfatiProvimeve.java
- com.example.eafatiprovimeve.AfatiProvimeve
-com/example/eafatiprovimeve/ClustersItem.java
- com.example.eafatiprovimeve.ClustersItem
-com/example/eafatiprovimeve/MapsActivity.java
- com.example.eafatiprovimeve.MapsActivity
- com.example.eafatiprovimeve.MapsActivity$1
+com/example/eafatiprovimeve/Adapters/AfatiProvimeveAdapter.java
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter$1
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter$1$1
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter$OnItemClickListener
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter$ProvimiHolder
+ com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter$ProvimiHolder$1
 com/example/eafatiprovimeve/databinding/RegisterformBinding.java
  com.example.eafatiprovimeve.databinding.RegisterformBinding
-com/example/eafatiprovimeve/AddEditActivity.java
- com.example.eafatiprovimeve.AddEditActivity
-com/example/eafatiprovimeve/AfatiProvimeveModel.java
- com.example.eafatiprovimeve.AfatiProvimeveModel
-com/example/eafatiprovimeve/MainActivity.java
- com.example.eafatiprovimeve.MainActivity
- com.example.eafatiprovimeve.MainActivity$1
- com.example.eafatiprovimeve.MainActivity$2
- com.example.eafatiprovimeve.MainActivity$3
- com.example.eafatiprovimeve.MainActivity$4
- com.example.eafatiprovimeve.MainActivity$4$1
+com/example/eafatiprovimeve/ViewModel/AfatiProvimeve.java
+ com.example.eafatiprovimeve.ViewModel.AfatiProvimeve
+com/example/eafatiprovimeve/Model/AfatiProvimeveRepository.java
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository$1
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository$DeleteAllProvimiAsyncTask
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository$DeleteProvimiAsyncTask
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository$InsertProvimiAsyncTask
+ com.example.eafatiprovimeve.Model.AfatiProvimeveRepository$UpdateProvimiAsyncTask
+com/example/eafatiprovimeve/Data/AfatiProvimeveDao.java
+ com.example.eafatiprovimeve.Data.AfatiProvimeveDao
+com/example/eafatiprovimeve/View/MapsActivity.java
+ com.example.eafatiprovimeve.View.MapsActivity
+ com.example.eafatiprovimeve.View.MapsActivity$1
+com/example/eafatiprovimeve/View/MainActivity.java
+ com.example.eafatiprovimeve.View.MainActivity
+ com.example.eafatiprovimeve.View.MainActivity$1
+ com.example.eafatiprovimeve.View.MainActivity$2
+ com.example.eafatiprovimeve.View.MainActivity$3
+ com.example.eafatiprovimeve.View.MainActivity$4
+ com.example.eafatiprovimeve.View.MainActivity$4$1
 com/example/eafatiprovimeve/databinding/ActivityCalendarPickerBinding.java
  com.example.eafatiprovimeve.databinding.ActivityCalendarPickerBinding
-com/example/eafatiprovimeve/RecyclerViewSwipeDecorator.java
- com.example.eafatiprovimeve.RecyclerViewSwipeDecorator
- com.example.eafatiprovimeve.RecyclerViewSwipeDecorator$Builder
 com/example/eafatiprovimeve/databinding/ActivityLoginBinding.java
  com.example.eafatiprovimeve.databinding.ActivityLoginBinding
 com/example/eafatiprovimeve/databinding/ActivityMapsBinding.java
  com.example.eafatiprovimeve.databinding.ActivityMapsBinding
+com/example/eafatiprovimeve/View/LoginActivity.java
+ com.example.eafatiprovimeve.View.LoginActivity
+ com.example.eafatiprovimeve.View.LoginActivity$1
+ com.example.eafatiprovimeve.View.LoginActivity$2
+ com.example.eafatiprovimeve.View.LoginActivity$3
+com/example/eafatiprovimeve/Model/AfatiProvimeveModel.java
+ com.example.eafatiprovimeve.Model.AfatiProvimeveModel
 com/example/eafatiprovimeve/databinding/ActivityMainBinding.java
  com.example.eafatiprovimeve.databinding.ActivityMainBinding
-com/example/eafatiprovimeve/AfatiProvimeveDao.java
- com.example.eafatiprovimeve.AfatiProvimeveDao
+com/example/eafatiprovimeve/Data/AfatiProvimeveDb.java
+ com.example.eafatiprovimeve.Data.AfatiProvimeveDb
+ com.example.eafatiprovimeve.Data.AfatiProvimeveDb$1
+ com.example.eafatiprovimeve.Data.AfatiProvimeveDb$PopulateDbAsyncTask
+com/example/eafatiprovimeve/View/RegisterActivity.java
+ com.example.eafatiprovimeve.View.RegisterActivity
+ com.example.eafatiprovimeve.View.RegisterActivity$1
 com/example/eafatiprovimeve/databinding/FragmentmapBinding.java
  com.example.eafatiprovimeve.databinding.FragmentmapBinding
 com/example/eafatiprovimeve/BuildConfig.java
  com.example.eafatiprovimeve.BuildConfig
-com/example/eafatiprovimeve/AfatiProvimeveDb.java
- com.example.eafatiprovimeve.AfatiProvimeveDb
- com.example.eafatiprovimeve.AfatiProvimeveDb$1
- com.example.eafatiprovimeve.AfatiProvimeveDb$PopulateDbAsyncTask
-com/example/eafatiprovimeve/ResetPasswordFragment.java
- com.example.eafatiprovimeve.ResetPasswordFragment
- com.example.eafatiprovimeve.ResetPasswordFragment$1
- com.example.eafatiprovimeve.ResetPasswordFragment$2
- com.example.eafatiprovimeve.ResetPasswordFragment$3
-com/example/eafatiprovimeve/RegisterActivity.java
- com.example.eafatiprovimeve.RegisterActivity
- com.example.eafatiprovimeve.RegisterActivity$1

@@ -43,21 +43,21 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.eafatiprovimeve.MapsActivity"
+            android:name="com.example.eafatiprovimeve.View.MapsActivity"
             android:label="@string/title_activity_maps"
-            android:parentActivityName="com.example.eafatiprovimeve.MainActivity" />
-        <activity android:name="com.example.eafatiprovimeve.CalendarPickerActivity" />
+            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
+        <activity android:name="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
         <activity
-            android:name="com.example.eafatiprovimeve.MainActivity"
-            android:parentActivityName="com.example.eafatiprovimeve.CalendarPickerActivity" />
+            android:name="com.example.eafatiprovimeve.View.MainActivity"
+            android:parentActivityName="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
         <activity
-            android:name="com.example.eafatiprovimeve.AddEditActivity"
-            android:parentActivityName="com.example.eafatiprovimeve.MainActivity" />
+            android:name="com.example.eafatiprovimeve.View.AddEditActivity"
+            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
         <activity
-            android:name="com.example.eafatiprovimeve.RegisterActivity"
+            android:name="com.example.eafatiprovimeve.View.RegisterActivity"
             android:screenOrientation="nosensor" />
         <activity
-            android:name="com.example.eafatiprovimeve.LoginActivity"
+            android:name="com.example.eafatiprovimeve.View.LoginActivity"
             android:screenOrientation="nosensor" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

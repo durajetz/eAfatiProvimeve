@@ -154,42 +154,42 @@ ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\And
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:13-52
 	android:name
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:23:13-58
-activity#com.example.eafatiprovimeve.MapsActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-28:57
+activity#com.example.eafatiprovimeve.View.MapsActivity
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-28:62
 	android:parentActivityName
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:13-55
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:13-60
 	android:label
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:27:13-56
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-47
-activity#com.example.eafatiprovimeve.CalendarPickerActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:9-60
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-52
+activity#com.example.eafatiprovimeve.View.CalendarPickerActivity
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:9-65
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:19-57
-activity#com.example.eafatiprovimeve.MainActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:9-32:68
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:19-62
+activity#com.example.eafatiprovimeve.View.MainActivity
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:9-32:73
 	android:parentActivityName
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:32:13-65
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:32:13-70
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:13-41
-activity#com.example.eafatiprovimeve.AddEditActivity
-ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:9-35:58
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:13-46
+activity#com.example.eafatiprovimeve.View.AddEditActivity
+ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:9-35:63
 	android:parentActivityName
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:35:13-55
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:35:13-60
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:34:13-44
-activity#com.example.eafatiprovimeve.RegisterActivity
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:34:13-49
+activity#com.example.eafatiprovimeve.View.RegisterActivity
 ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:36:9-38:52
 	android:screenOrientation
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:38:13-49
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:37:13-45
-activity#com.example.eafatiprovimeve.LoginActivity
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:37:13-50
+activity#com.example.eafatiprovimeve.View.LoginActivity
 ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:39:9-47:20
 	android:screenOrientation
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:41:13-49
 	android:name
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:40:13-42
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:40:13-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:42:13-46:29
 action#android.intent.action.MAIN

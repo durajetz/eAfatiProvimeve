@@ -23,21 +23,21 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name=".MapsActivity"
+        <activity android:name=".View.MapsActivity"
             android:label="@string/title_activity_maps"
-            android:parentActivityName=".MainActivity"/>
-        <activity android:name=".CalendarPickerActivity" />
+            android:parentActivityName=".View.MainActivity"/>
+        <activity android:name=".View.CalendarPickerActivity" />
         <activity
-            android:name=".MainActivity"
-            android:parentActivityName=".CalendarPickerActivity" />
+            android:name=".View.MainActivity"
+            android:parentActivityName=".View.CalendarPickerActivity" />
         <activity
-            android:name=".AddEditActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".View.AddEditActivity"
+            android:parentActivityName=".View.MainActivity" />
         <activity
-            android:name=".RegisterActivity"
+            android:name=".View.RegisterActivity"
             android:screenOrientation="nosensor" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".View.LoginActivity"
             android:screenOrientation="nosensor">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

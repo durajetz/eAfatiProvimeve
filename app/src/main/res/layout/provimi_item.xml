@@ -15,9 +15,10 @@
         android:layout_height="170dp"
         android:background="@drawable/bg_effect"/>
 
-    <RelativeLayout android:id="@+id/mainLayout"
+    <RelativeLayout
+        android:id="@+id/mainLayout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:padding="8dp">
 
         <TextView
@@ -36,28 +37,27 @@
 
         <TextView
             android:id="@+id/text_view_datagjeneruar"
-            android:textSize="22sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/text_view_emri"
             android:text="@string/row_date"
             android:textColor="@color/grey_date"
-            />
+            android:textSize="22sp" />
+
         <TextView
-            android:background="@drawable/tv_circle_shape"
             android:id="@+id/text_view_dita"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:textStyle="bold"
-            android:text="@string/row_day"
-            android:textSize="20sp"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="5dp"
             android:layout_marginEnd="5dp"
-            android:padding="5dp"/>
-
+            android:layout_marginRight="5dp"
+            android:background="@drawable/tv_circle_shape"
+            android:padding="5dp"
+            android:text="@string/row_day"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
     </RelativeLayout>
