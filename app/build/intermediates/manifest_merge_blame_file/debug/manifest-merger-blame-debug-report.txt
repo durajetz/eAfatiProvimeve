@@ -59,244 +59,243 @@
 37-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:18:9-61
 38        android:supportsRtl="true"
 38-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:19:9-35
-39        android:testOnly="true"
-40        android:theme="@style/Theme.EAfatiProvimeve" >
-40-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:20:9-53
-41        <meta-data
-41-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:22:9-24:55
-42            android:name="com.google.android.geo.API_KEY"
-42-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:23:13-58
-43            android:value="@string/google_maps_key" />
-43-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:13-52
-44
-45        <activity
-45-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-28:62
-46            android:name="com.example.eafatiprovimeve.View.MapsActivity"
-46-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-52
-47            android:label="@string/title_activity_maps"
-47-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:27:13-56
-48            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
-48-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:13-60
-49        <activity android:name="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
-49-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:9-65
-49-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:19-62
-50        <activity
-50-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:9-32:73
-51            android:name="com.example.eafatiprovimeve.View.MainActivity"
-51-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:13-46
-52            android:parentActivityName="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
-52-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:32:13-70
-53        <activity
-53-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:9-35:63
-54            android:name="com.example.eafatiprovimeve.View.AddEditActivity"
-54-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:34:13-49
-55            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
-55-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:35:13-60
-56        <activity
-56-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:36:9-38:52
-57            android:name="com.example.eafatiprovimeve.View.RegisterActivity"
-57-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:37:13-50
-58            android:screenOrientation="nosensor" />
-58-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:38:13-49
-59        <activity
-59-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:39:9-47:20
-60            android:name="com.example.eafatiprovimeve.View.LoginActivity"
-60-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:40:13-47
-61            android:screenOrientation="nosensor" >
-61-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:41:13-49
-62            <intent-filter>
-62-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:42:13-46:29
-63                <action android:name="android.intent.action.MAIN" />
-63-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:17-69
-63-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:25-66
-64
-65                <category android:name="android.intent.category.LAUNCHER" />
-65-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:17-77
-65-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:27-74
-66            </intent-filter>
-67        </activity>
-68        <activity
-68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-69            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-70            android:excludeFromRecents="true"
-70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-71            android:exported="true"
-71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-72            android:launchMode="singleTask"
-72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-73            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-74            <intent-filter>
-74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-75                <action android:name="android.intent.action.VIEW" />
-75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-76
-77                <category android:name="android.intent.category.DEFAULT" />
-77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-78                <category android:name="android.intent.category.BROWSABLE" />
-78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-79
-80                <data
-80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-81                    android:host="firebase.auth"
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-82                    android:path="/"
-82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-83                    android:scheme="genericidp" />
-83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-84            </intent-filter>
-85        </activity>
-86        <activity
-86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-87            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
-88            android:excludeFromRecents="true"
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
-89            android:exported="true"
-89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
-90            android:launchMode="singleTask"
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
-92            <intent-filter>
-92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
-93                <action android:name="android.intent.action.VIEW" />
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-94
-95                <category android:name="android.intent.category.DEFAULT" />
-95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-96                <category android:name="android.intent.category.BROWSABLE" />
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-97
-98                <data
-98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-99                    android:host="firebase.auth"
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-100                    android:path="/"
-100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-101                    android:scheme="recaptcha" />
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-102            </intent-filter>
-103        </activity>
-104
-105        <service
-105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-106            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-107            android:enabled="true"
-107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-108            android:exported="false" >
-108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-109            <intent-filter>
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-110                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-111
-112                <category android:name="android.intent.category.DEFAULT" />
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-113            </intent-filter>
-114        </service>
-115        <service
-115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-116            android:name="com.google.firebase.components.ComponentDiscoveryService"
-116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
-117            android:directBootAware="true"
-117-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-118            android:exported="false" >
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-119            <meta-data
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-121                android:value="com.google.firebase.components.ComponentRegistrar" />
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-122        </service>
-123
-124        <activity
-124-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
-125            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-125-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
-126            android:excludeFromRecents="true"
-126-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
-127            android:exported="false"
-127-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
-128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-128-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
-129        <!--
-130            Service handling Google Sign-In user revocation. For apps that do not integrate with
-131            Google Sign-In, this service will never be started.
-132        -->
-133        <service
-133-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
-134            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-134-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
-135            android:exported="true"
-135-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
-136            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-136-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
-137            android:visibleToInstantApps="true" />
-137-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
-138        <service
-138-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-139            android:name="androidx.room.MultiInstanceInvalidationService"
-139-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
-140            android:directBootAware="true"
-140-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-141            android:exported="false" />
-141-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-142
-143        <provider
-143-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:8:9-11:40
-144            android:name="com.squareup.picasso.PicassoProvider"
-144-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:9:13-64
-145            android:authorities="com.example.eafatiprovimeve.com.squareup.picasso"
-145-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:10:13-72
-146            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
-146-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:11:13-37
-147        <uses-library
-147-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
-148            android:name="org.apache.http.legacy"
-148-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
-149            android:required="false" />
-149-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
-150
-151        <meta-data
-151-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:10:9-12:69
-152            android:name="com.google.android.gms.version"
-152-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:11:13-58
-153            android:value="@integer/google_play_services_version" />
-153-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:12:13-66
-154
-155        <activity
-155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-157            android:exported="false"
-157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-159
-160        <provider
-160-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-161            android:name="com.google.firebase.provider.FirebaseInitProvider"
-161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-162            android:authorities="com.example.eafatiprovimeve.firebaseinitprovider"
-162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-163            android:directBootAware="true"
-163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-164            android:exported="false"
-164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-165            android:initOrder="100" />
-165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-166    </application>
-167
-168</manifest>
+39        android:theme="@style/Theme.EAfatiProvimeve" >
+39-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:20:9-53
+40        <meta-data
+40-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:22:9-24:55
+41            android:name="com.google.android.geo.API_KEY"
+41-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:23:13-58
+42            android:value="@string/google_maps_key" />
+42-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:24:13-52
+43
+44        <activity
+44-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:9-28:62
+45            android:name="com.example.eafatiprovimeve.View.MapsActivity"
+45-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:26:19-52
+46            android:label="@string/title_activity_maps"
+46-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:27:13-56
+47            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
+47-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:28:13-60
+48        <activity android:name="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
+48-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:9-65
+48-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:29:19-62
+49        <activity
+49-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:30:9-32:73
+50            android:name="com.example.eafatiprovimeve.View.MainActivity"
+50-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:31:13-46
+51            android:parentActivityName="com.example.eafatiprovimeve.View.CalendarPickerActivity" />
+51-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:32:13-70
+52        <activity
+52-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:33:9-35:63
+53            android:name="com.example.eafatiprovimeve.View.AddEditActivity"
+53-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:34:13-49
+54            android:parentActivityName="com.example.eafatiprovimeve.View.MainActivity" />
+54-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:35:13-60
+55        <activity
+55-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:36:9-38:52
+56            android:name="com.example.eafatiprovimeve.View.RegisterActivity"
+56-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:37:13-50
+57            android:screenOrientation="nosensor" />
+57-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:38:13-49
+58        <activity
+58-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:39:9-47:20
+59            android:name="com.example.eafatiprovimeve.View.LoginActivity"
+59-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:40:13-47
+60            android:screenOrientation="nosensor" >
+60-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:41:13-49
+61            <intent-filter>
+61-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:42:13-46:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:17-69
+62-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:43:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:17-77
+64-->C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:45:27-74
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+68            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+68-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+69            android:excludeFromRecents="true"
+69-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+70            android:exported="true"
+70-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+71            android:launchMode="singleTask"
+71-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+72            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+72-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+73            <intent-filter>
+73-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+74                <action android:name="android.intent.action.VIEW" />
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+75
+76                <category android:name="android.intent.category.DEFAULT" />
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+77                <category android:name="android.intent.category.BROWSABLE" />
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+78
+79                <data
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+80                    android:host="firebase.auth"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+81                    android:path="/"
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+82                    android:scheme="genericidp" />
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+83            </intent-filter>
+84        </activity>
+85        <activity
+85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+86            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+87            android:excludeFromRecents="true"
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+88            android:exported="true"
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+89            android:launchMode="singleTask"
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+90            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+91            <intent-filter>
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+92                <action android:name="android.intent.action.VIEW" />
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+93
+94                <category android:name="android.intent.category.DEFAULT" />
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+95                <category android:name="android.intent.category.BROWSABLE" />
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+96
+97                <data
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+98                    android:host="firebase.auth"
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+99                    android:path="/"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+100                    android:scheme="recaptcha" />
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+101            </intent-filter>
+102        </activity>
+103
+104        <service
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+105            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+106            android:enabled="true"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+107            android:exported="false" >
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+108            <intent-filter>
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+109                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+110
+111                <category android:name="android.intent.category.DEFAULT" />
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+112            </intent-filter>
+113        </service>
+114        <service
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+116            android:directBootAware="true"
+116-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+118            <meta-data
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+119                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\aa5c9d71e49d94ddd96894f0d2fe3b32\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+121        </service>
+122
+123        <activity
+123-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+124            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+124-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+125            android:excludeFromRecents="true"
+125-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+128        <!--
+129            Service handling Google Sign-In user revocation. For apps that do not integrate with
+130            Google Sign-In, this service will never be started.
+131        -->
+132        <service
+132-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+133            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+133-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+134            android:exported="true"
+134-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+135            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+135-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+136            android:visibleToInstantApps="true" />
+136-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\5b2fe0c71c9868f448e8c29a6b116e74\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+137        <service
+137-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+138            android:name="androidx.room.MultiInstanceInvalidationService"
+138-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+139            android:directBootAware="true"
+139-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+140            android:exported="false" />
+140-->[androidx.room:room-runtime:2.3.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\3507cd7e99b2bb4d6dd71b29bf8e2665\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+141
+142        <provider
+142-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+143            android:name="com.squareup.picasso.PicassoProvider"
+143-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:9:13-64
+144            android:authorities="com.example.eafatiprovimeve.com.squareup.picasso"
+144-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:10:13-72
+145            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+145-->[com.squareup.picasso:picasso:2.71828] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\f8464f70dee0adfdf4bd7c2aaa7cccba\picasso-2.71828\AndroidManifest.xml:11:13-37
+146        <uses-library
+146-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:39:9-41:40
+147            android:name="org.apache.http.legacy"
+147-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:40:13-50
+148            android:required="false" />
+148-->[com.google.android.gms:play-services-maps:17.0.1] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\9c8845b65bd959d774894ee05b4c519e\play-services-maps-17.0.1\AndroidManifest.xml:41:13-37
+149
+150        <meta-data
+150-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:10:9-12:69
+151            android:name="com.google.android.gms.version"
+151-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:11:13-58
+152            android:value="@integer/google_play_services_version" />
+152-->[com.google.maps.android:android-maps-utils:2.2.5] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\e313e8911b71af678de9afd6f0810f76\android-maps-utils-2.2.5\AndroidManifest.xml:12:13-66
+153
+154        <activity
+154-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+155-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+156            android:exported="false"
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\538218237693c51a7f3aab01e8fb86e8\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+158
+159        <provider
+159-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+160            android:name="com.google.firebase.provider.FirebaseInitProvider"
+160-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+161            android:authorities="com.example.eafatiprovimeve.firebaseinitprovider"
+161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+162            android:directBootAware="true"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+163            android:exported="false"
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+164            android:initOrder="100" />
+164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\livec\.gradle\caches\transforms-2\files-2.1\ba99f0db75ff1152780be89a71df52d7\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+165    </application>
+166
+167</manifest>
