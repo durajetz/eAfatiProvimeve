@@ -1,5 +1,7 @@
 <img src="https://images4.imagebam.com/ee/3a/1a/ME4808M_o.png" alt="eAfatiProvimeve" width="350"/>
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 **eAfatiProvimeve** is a mobile app for Android using *MVVM (Model-view-viewmodel)* architecture made with Java which based on the permanent terms of exam and the start date of exam deadline generates the correct dates for exams.
 
 ## Features
