@@ -28,8 +28,16 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_eafati_foreground.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_eafati_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_save.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_eafati_round.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_eafati_round.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_add_circle.png.flat",
@@ -60,16 +68,16 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_location_on_24.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_save.png"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_close.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_close.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_save.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_save.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_exit.png.flat",
@@ -84,20 +92,24 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_edit.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_event.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_event.png"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_close.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\layout\\activity_maps.xml"
     },
     {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_close.png.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_close.png"
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_eafati.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_eafati.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_placeholder.png.flat",
@@ -152,6 +164,10 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add_circle.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_eafati_foreground.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_eafati_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_google_icon.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\drawable-xxhdpi\\google_icon.png"
     },
@@ -190,6 +206,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_add.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_eafati.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_eafati.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_close.png.flat",
@@ -256,12 +276,24 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_location_on_24.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_eafati.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_eafati.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tv_circle_shape.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\drawable\\tv_circle_shape.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout_loginform.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\layout\\loginform.xml"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_eafati_foreground.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_eafati_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_eafati_round.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_eafati_round.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add_circle.xml.flat",
@@ -288,8 +320,16 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_edit.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_eafati_round.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_eafati_round.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_bg.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\drawable\\bottom_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_eafati_foreground.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_eafati_foreground.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
@@ -312,6 +352,10 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_twotone_delete.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_eafati.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_eafati.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
@@ -322,6 +366,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corners.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\drawable\\rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_eafati.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_eafati.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_exit.png.flat",
@@ -346,6 +394,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_add_circle.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_add_circle.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_eafati_round.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_eafati_round.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -378,6 +430,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_twotone_edit.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_twotone_edit.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_eafati_round.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_eafati_round.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_google_icon.png.flat",
@@ -416,6 +472,10 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_launcher_background.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_eafati.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_eafati.png"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_circle.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_circle.png"
     },
@@ -430,6 +490,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_add.xml.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_eafati_round.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_eafati_round.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
@@ -498,6 +562,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_save.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_save.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_eafati_foreground.png.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_eafati_foreground.png"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_event.xml.flat",

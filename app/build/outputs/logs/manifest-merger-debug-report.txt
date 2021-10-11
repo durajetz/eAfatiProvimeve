@@ -141,9 +141,9 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\li
 	android:label
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:18:9-54
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:18:9-61
 	android:icon
-		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:16:9-50
 	android:allowBackup
 		ADDED from C:\Users\livec\AndroidStudioProjects\eAfatiProvimeve\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme

@@ -1093,6 +1093,7 @@ int color grey_date 0x7f050072
 int color grey_title 0x7f050073
 int color highlighted_text_material_dark 0x7f050074
 int color highlighted_text_material_light 0x7f050075
+int color ic_launcher_eafati_background 0x7f0500ee
 int color material_blue_grey_800 0x7f050076
 int color material_blue_grey_900 0x7f050077
 int color material_blue_grey_950 0x7f050078
@@ -2452,6 +2453,9 @@ int menu delete_all_menu 0x7f0c0001
 int menu googlemap 0x7f0c0003
 int menu logout_menu 0x7f0c0002
 int mipmap ic_launcher 0x7f0d0000
+int mipmap ic_launcher_eafati 0x7f0d0002
+int mipmap ic_launcher_eafati_foreground 0x7f0d0003
+int mipmap ic_launcher_eafati_round 0x7f0d0004
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000
 int string abc_action_bar_home_description 0x7f0f0000

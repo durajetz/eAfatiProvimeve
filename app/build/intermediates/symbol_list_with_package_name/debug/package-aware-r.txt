@@ -1094,6 +1094,7 @@ color grey_date
 color grey_title
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_eafati_background
 color material_blue_grey_800
 color material_blue_grey_900
 color material_blue_grey_950
@@ -2453,6 +2454,9 @@ menu delete_all_menu
 menu googlemap
 menu logout_menu
 mipmap ic_launcher
+mipmap ic_launcher_eafati
+mipmap ic_launcher_eafati_foreground
+mipmap ic_launcher_eafati_round
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
