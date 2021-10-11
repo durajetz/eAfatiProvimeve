@@ -40,7 +40,7 @@ import java.util.List;
 public class AfatiProvimeveAdapter extends RecyclerView.Adapter<AfatiProvimeveAdapter.ProvimiHolder> {
 
     private static final String TAG = "AfatiProvimeveAdapter";
-    private static final String BASE_URL = "https://api.npoint.io/232bb55f9f8e411ab9e5";
+    private static final String BASE_URL = "https://api.npoint.io/d6604aed1e9f5925c84d";
 
     private List<AfatiProvimeve> provimet = new ArrayList<>();
     private OnItemClickListener listener;

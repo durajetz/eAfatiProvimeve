@@ -6,9 +6,9 @@
     <ImageView
         android:id="@+id/imgProvimi"
         android:layout_width="match_parent"
-        android:layout_height="170dp"
+        android:layout_height="188dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/ic_placeholder"/>
+        android:src="@drawable/ic_placeholder" />
 
     <FrameLayout
         android:layout_width="match_parent"
