@@ -1,4 +1,4 @@
-#Wed Apr 20 17:30:52 CEST 2022
+#Wed Apr 20 18:41:52 CEST 2022
 base.0=C\:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

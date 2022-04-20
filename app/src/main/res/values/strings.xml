@@ -8,7 +8,7 @@
     <string name="myDate">MM-dd-YYYY</string>
     <string name="title_activity_maps">Map</string>
     <string-array name="salla_array">
-        <item>Choose exam place</item>
+        <item>Choose exam room</item>
         <item>745</item>
         <item>611</item>
         <item>626</item>
