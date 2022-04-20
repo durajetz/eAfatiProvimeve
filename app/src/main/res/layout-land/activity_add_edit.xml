@@ -32,35 +32,42 @@
         app:layout_constraintTop_toBottomOf="@+id/logo_imageview"
         android:gravity="center_horizontal" />
 
-    <EditText
+    <Spinner
         android:id="@+id/edit_text_viti"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:backgroundTint="@color/colorPrimary"
         android:ems="10"
-        android:hint="Exam in year e.g. 3"
-        android:inputType="number"
-        android:maxLength="1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_name"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_dita"
         android:gravity="center_horizontal" />
 
-    <EditText
+    <Spinner
         android:id="@+id/edit_text_semestri"
         android:layout_width="270dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimary"
-        android:ems="10"
-        android:hint="Semester number of exam e.g. 5"
         android:textAlignment="center"
-        android:inputType="number"
-        android:maxLength="1"
+        android:ems="10"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edit_text_viti"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"/>
+
+    <Spinner
+        android:id="@+id/salla_spinner"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:textAlignment="center"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_semestri"
+        android:gravity="center_horizontal"
+        />
 
     <EditText
         android:id="@+id/edit_text_dita"
@@ -74,23 +81,23 @@
         android:maxLength="3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_semestri"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_name"
         android:gravity="center_horizontal" />
 
-    <EditText
-        android:id="@+id/edit_text_difference"
-        android:layout_width="270dp"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/colorPrimary"
-        android:textAlignment="center"
-        android:ems="10"
-        android:hint="Difference = Weekday - Monday"
-        android:inputType="number"
-        android:maxLength="2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_text_dita"
-        android:gravity="center_horizontal" />
+<!--    <EditText-->
+<!--        android:id="@+id/edit_text_difference"-->
+<!--        android:layout_width="270dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/colorPrimary"-->
+<!--        android:textAlignment="center"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Difference = Weekday - Monday"-->
+<!--        android:inputType="number"-->
+<!--        android:maxLength="2"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit_text_dita"-->
+<!--        android:gravity="center_horizontal" />-->
 
 
 

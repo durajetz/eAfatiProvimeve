@@ -47,13 +47,14 @@ public abstract class AfatiProvimeveDb extends RoomDatabase {
 
         @Override
         protected Void doInBackground(Void... voids) {
-            afatiProvimeveDao.insert(new AfatiProvimeve("Data Mining",3,6, "M2",8));
-            afatiProvimeveDao.insert(new AfatiProvimeve("MM",3,5, "E2",10));
-            afatiProvimeveDao.insert(new AfatiProvimeve("DIST",3,6, "M4",22));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik",2,3, "P4",25));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Sinjalet dhe Sistemet",2,3, "MK3",16));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Praktika profesionale",2,3, "MK4",23));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Programimi Paisjeve Mobile",2,3, "H4",21));
+            //metoda(String)
+            afatiProvimeveDao.insert(new AfatiProvimeve("Data Mining","Year III","Semester VI", "M2",8,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("MM","Year III","Semester V", "E2",10,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("DIST","Year III","Semester VI", "M4",22,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik","Year II","Semester III", "P4",25,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Sinjalet dhe Sistemet","Year II","Semester III", "MK3",16,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Praktika profesionale","Year III","Semester VI", "MK4",23,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Programimi Paisjeve Mobile","Year III","Semester VI", "H4",21,""));
             return null;
         }
     }

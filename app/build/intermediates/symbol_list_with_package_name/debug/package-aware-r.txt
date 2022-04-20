@@ -58,6 +58,9 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array salla_array
+array semester_array
+array viti_array
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1699,6 +1702,8 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable bg_calendar
 drawable bg_effect
+drawable blue_fill_outline
+drawable blue_outline
 drawable bottom_bg
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1965,7 +1970,6 @@ id easeIn
 id easeInOut
 id easeOut
 id edit_query
-id edit_text_difference
 id edit_text_dita
 id edit_text_name
 id edit_text_semestri
@@ -2146,6 +2150,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id salla_spinner
 id satellite
 id save_non_transition_alpha
 id save_overlay_view

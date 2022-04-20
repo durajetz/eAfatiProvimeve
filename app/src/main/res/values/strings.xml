@@ -7,4 +7,34 @@
     <string name="row_day">M4</string>
     <string name="myDate">MM-dd-YYYY</string>
     <string name="title_activity_maps">Map</string>
+    <string-array name="salla_array">
+        <item>Choose exam place</item>
+        <item>745</item>
+        <item>611</item>
+        <item>626</item>
+        <item>636</item>
+        <item>616</item>
+        <item>615</item>
+        <item>621</item>
+        <item>411</item>
+        <item>408</item>
+        <item>310</item>
+        <item>201</item>
+        <item>A3</item>
+    </string-array>
+    <string-array name="semester_array">
+        <item>Choose semester</item>
+        <item>Semester I</item>
+        <item>Semester II</item>
+        <item>Semester III</item>
+        <item>Semester IV</item>
+        <item>Semester V</item>
+        <item>Semester VI</item>
+    </string-array>
+    <string-array name="viti_array">
+        <item>Choose year</item>
+        <item>Year I</item>
+        <item>Year II</item>
+        <item>Year III</item>
+    </string-array>
 </resources>

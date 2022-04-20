@@ -32,11 +32,11 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.eafatiprovimeve.ViewModel.AfatiProvimeve;
 import com.example.eafatiprovimeve.Adapters.AfatiProvimeveAdapter;
 import com.example.eafatiprovimeve.Model.AfatiProvimeveModel;
 import com.example.eafatiprovimeve.R;
 import com.example.eafatiprovimeve.Utils.RecyclerViewSwipeDecorator;
+import com.example.eafatiprovimeve.ViewModel.AfatiProvimeve;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
@@ -46,7 +46,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -60,6 +62,13 @@ public class MainActivity extends AppCompatActivity {
     public static final int ADD_PROVIMI_REQUEST = 1;
     public static final int EDIT_PROVIMI_REQUEST = 2;
     private AfatiProvimeveModel afatiProvimeveModel;
+    private Map<String, Integer> weekDays = new HashMap<String, Integer>() {{
+        put("H", 1);
+        put("M", 2);
+        put("MK", 3);
+        put("E", 4);
+        put("P", 5);
+    }};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -118,6 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra(AddEditActivity.EXTRA_VITI, afatiProvimeve.getViti());
                 intent.putExtra(AddEditActivity.EXTRA_SEMESTRI, afatiProvimeve.getSemestri());
                 intent.putExtra(AddEditActivity.EXTRA_DIFERENCA, afatiProvimeve.getDiferenca());
+                intent.putExtra(AddEditActivity.EXTRA_SALLA, afatiProvimeve.getSalla());
 
                 startActivityForResult(intent, EDIT_PROVIMI_REQUEST);
             }
@@ -171,7 +181,7 @@ public class MainActivity extends AppCompatActivity {
                             try {
                                 afatiProvimeveModel.delete(adapter.getProvimiAt(position));
                                 startActivity(intent);
-                            }catch (Exception e){
+                            } catch (Exception e) {
                                 Toast.makeText(MainActivity.this, "There is no app that can support this action", Toast.LENGTH_SHORT).show();
                             }
 //                            Toast.makeText(MainActivity.this, "gmail", Toast.LENGTH_SHORT).show();
@@ -207,11 +217,16 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == ADD_PROVIMI_REQUEST && resultCode == RESULT_OK) {
             String name = data.getStringExtra(AddEditActivity.EXTRA_NAME);
             String dita = data.getStringExtra(AddEditActivity.EXTRA_DITA);
-            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
-            int viti = data.getIntExtra(AddEditActivity.EXTRA_VITI, 1);
-            int semestri = data.getIntExtra(AddEditActivity.EXTRA_SEMESTRI, 1);
+            String salla = data.getStringExtra(AddEditActivity.EXTRA_SALLA);
+            String semestri = data.getStringExtra(AddEditActivity.EXTRA_SEMESTRI);
+            String viti = data.getStringExtra(AddEditActivity.EXTRA_VITI);
+//            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
 
-            AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca);
+            String[] part = dita.split("(?<=\\D)(?=\\d)");
+            int day = weekDays.get(part[0]);
+            int weekNumber = Integer.parseInt(part[1]);
+            int diferenca = (7 * (weekNumber - 1) + (day - 1));
+            AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca, salla);
             afatiProvimeveModel.insert(afatiProvimeve);
             Toast.makeText(this, "Provimi saved.", Toast.LENGTH_SHORT).show();
         } else if (requestCode == EDIT_PROVIMI_REQUEST && resultCode == RESULT_OK) {
@@ -222,11 +237,16 @@ public class MainActivity extends AppCompatActivity {
             }
             String name = data.getStringExtra(AddEditActivity.EXTRA_NAME);
             String dita = data.getStringExtra(AddEditActivity.EXTRA_DITA);
-            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
-            int viti = data.getIntExtra(AddEditActivity.EXTRA_VITI, 1);
-            int semestri = data.getIntExtra(AddEditActivity.EXTRA_SEMESTRI, 1);
+            String salla = data.getStringExtra(AddEditActivity.EXTRA_SALLA);
+            String semestri = data.getStringExtra(AddEditActivity.EXTRA_SEMESTRI);
+            String viti = data.getStringExtra(AddEditActivity.EXTRA_VITI);
+//            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
+            String[] part = dita.split("(?<=\\D)(?=\\d)");
+            int day = weekDays.get(part[0]);
+            int weekNumber = Integer.parseInt(part[1]);
+            int diferenca = (7 * (weekNumber - 1) + (day - 1));
 
-            AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca);
+            AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca, salla);
             afatiProvimeve.setId(id);
             afatiProvimeveModel.update(afatiProvimeve);
             Toast.makeText(this, "Provimi updated.", Toast.LENGTH_SHORT).show();

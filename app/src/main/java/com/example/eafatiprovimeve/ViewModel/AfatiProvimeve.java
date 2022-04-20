@@ -1,7 +1,6 @@
 package com.example.eafatiprovimeve.ViewModel;
 
 
-
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
 
@@ -12,17 +11,19 @@ public class AfatiProvimeve {
     private int id;
 
     private String name;
-    private int viti;
-    private int semestri;
+    private String viti;
+    private String semestri;
     private String dita;
     private int diferenca;
+    private String salla;
 
-    public AfatiProvimeve(String name, int viti, int semestri, String dita, int diferenca) {
+    public AfatiProvimeve(String name, String viti, String semestri, String dita, int diferenca, String salla) {
         this.name = name;
         this.viti = viti;
         this.semestri = semestri;
         this.dita = dita;
         this.diferenca = diferenca;
+        this.salla = salla;
     }
 
     public void setId(int id) {
@@ -37,11 +38,11 @@ public class AfatiProvimeve {
         return name;
     }
 
-    public int getViti() {
+    public String getViti() {
         return viti;
     }
 
-    public int getSemestri() {
+    public String getSemestri() {
         return semestri;
     }
 
@@ -51,5 +52,9 @@ public class AfatiProvimeve {
 
     public int getDiferenca() {
         return diferenca;
+    }
+
+    public String getSalla() {
+        return salla;
     }
 }
