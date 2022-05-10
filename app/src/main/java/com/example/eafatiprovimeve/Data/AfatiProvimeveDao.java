@@ -28,7 +28,9 @@ public interface AfatiProvimeveDao {
     @Query("DELETE FROM afati_provimeve")
     void deleteAllAfatiProvimeve();
 
-    @Query("SELECT * FROM afati_provimeve ORDER BY diferenca ASC")
+    @Query("SELECT * FROM afati_provimeve order by diferenca asc")
     LiveData<List<AfatiProvimeve>> getAllProvimet();
 
+    @Query("SELECT * FROM afati_provimeve order by name asc")
+    LiveData<List<AfatiProvimeve>> getAllProvimetSortedByName();
 }

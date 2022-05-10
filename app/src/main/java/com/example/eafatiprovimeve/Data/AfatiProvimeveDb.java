@@ -12,7 +12,7 @@ import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.example.eafatiprovimeve.ViewModel.AfatiProvimeve;
 
-@Database(entities = {AfatiProvimeve.class},version = 1,exportSchema = false)
+@Database(entities = {AfatiProvimeve.class},version = 2,exportSchema = false)
 public abstract class AfatiProvimeveDb extends RoomDatabase {
 
     private static AfatiProvimeveDb instance;
@@ -48,13 +48,13 @@ public abstract class AfatiProvimeveDb extends RoomDatabase {
         @Override
         protected Void doInBackground(Void... voids) {
             //metoda(String)
-            afatiProvimeveDao.insert(new AfatiProvimeve("Data Mining","Year III","Semester VI", "M2",8,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("MM","Year III","Semester V", "E2",10,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("DIST","Year III","Semester VI", "M4",22,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik","Year II","Semester III", "P4",25,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Sinjalet dhe Sistemet","Year II","Semester III", "MK3",16,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Praktika profesionale","Year III","Semester VI", "MK4",23,""));
-            afatiProvimeveDao.insert(new AfatiProvimeve("Programimi Paisjeve Mobile","Year III","Semester VI", "H4",21,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Data Mining","Year: III","Semester: VI", "Day: Tuesday#Week: Second",8,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("MM","Year: III","Semester: V", "Day: Thursday#Week: Second",10,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("DIST","Year: III","Semester: VI", "Day: Wednesday#Week: Fourth",22,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Elektronik","Year: II","Semester: III", "Day: Friday#Week: Fourth",25,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Sinjalet dhe Sistemet","Year: II","Semester: III", "Day: Wednesday#Week: Third",16,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Praktika profesionale","Year: III","Semester: VI", "Day: Wednesday#Week: Fourth",23,""));
+            afatiProvimeveDao.insert(new AfatiProvimeve("Programimi Paisjeve Mobile","Year: III","Semester: VI", "Day: Monday#Week: Fourth",21,""));
             return null;
         }
     }

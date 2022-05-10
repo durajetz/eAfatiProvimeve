@@ -64,6 +64,14 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_exit.png"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\menu_show_all_menu.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\menu\\show_all_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\menu_filter_by_semester_menu.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\menu\\filter_by_semester_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_location_on_24.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_location_on_24.png"
     },
@@ -136,6 +144,10 @@
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\anim\\translate_animation.xml"
     },
     {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\menu_sort_by_menu.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\menu\\sort_by_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher_background.png"
     },
@@ -186,10 +198,6 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_twotone_edit.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_twotone_edit.png"
-    },
-    {
-        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_add_edit.xml.flat",
-        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\layout-land\\activity_add_edit.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_exit.png.flat",
@@ -458,6 +466,10 @@
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\menu_filter_by_year_menu.xml.flat",
+        "source": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\src\\main\\res\\menu\\filter_by_year_menu.xml"
     },
     {
         "merged": "C:\\Users\\livec\\AndroidStudioProjects\\eAfatiProvimeve\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_add_circle.png.flat",

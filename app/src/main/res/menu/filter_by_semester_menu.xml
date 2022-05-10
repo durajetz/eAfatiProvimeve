@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/filter_by_semester"
+        android:title="Filter by semester"
+        app:showAsAction="never">
+        <menu>
+
+            <item
+                android:id="@+id/semester_one"
+                android:title="Semester I" />
+
+            <item
+                android:id="@+id/semester_two"
+                android:title="Semester II" />
+
+            <item
+                android:id="@+id/semester_three"
+                android:title="Semester III" />
+
+            <item
+                android:id="@+id/semester_four"
+                android:title="Semester IV" />
+
+            <item
+                android:id="@+id/semester_five"
+                android:title="Semester V" />
+
+            <item
+                android:id="@+id/semester_six"
+                android:title="Semester VI" />
+        </menu>
+    </item>
+
+</menu>

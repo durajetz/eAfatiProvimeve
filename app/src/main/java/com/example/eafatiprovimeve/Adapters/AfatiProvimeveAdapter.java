@@ -40,7 +40,7 @@ import java.util.List;
 public class AfatiProvimeveAdapter extends RecyclerView.Adapter<AfatiProvimeveAdapter.ProvimiHolder> {
 
     private static final String TAG = "AfatiProvimeveAdapter";
-    private static final String BASE_URL = "https://api.npoint.io/d6604aed1e9f5925c84d";
+    private static final String BASE_URL = "https://api.npoint.io/abcfe559f35dbcf3b61f";
 
     private List<AfatiProvimeve> provimet = new ArrayList<>();
     private OnItemClickListener listener;
@@ -66,7 +66,9 @@ public class AfatiProvimeveAdapter extends RecyclerView.Adapter<AfatiProvimeveAd
     public void onBindViewHolder(@NonNull @NotNull ProvimiHolder holder, int position) {
         AfatiProvimeve currentAfati = provimet.get(position);
         holder.textViewTitle.setText(currentAfati.getName());
-        holder.textViewDita.setText(currentAfati.getDita());
+        String day = currentAfati.getDita().split("#")[0].split(" ")[1];
+        String weekDay = currentAfati.getDita().split("#")[1].split(" ")[1];
+        holder.textViewDita.setText(day + " " + weekDay);
 
         parseJsonData(currentAfati.getName(), holder.imgProvimi);
 
@@ -96,7 +98,6 @@ public class AfatiProvimeveAdapter extends RecyclerView.Adapter<AfatiProvimeveAd
         this.provimet = provimet;
         notifyDataSetChanged();
     }
-
 
     public AfatiProvimeve getProvimiAt(int position) {
         return provimet.get(position);
@@ -147,13 +148,18 @@ public class AfatiProvimeveAdapter extends RecyclerView.Adapter<AfatiProvimeveAd
                 ((Activity) mContext).runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
+                        boolean flag = false;
                         try {
                             JSONObject jsonObject = new JSONObject(response);
                             JSONArray jsonArray = jsonObject.getJSONArray("Provimet");
+                            String defaultUrl = jsonObject.get("Default").toString();
                             for (int i = 0; i < jsonArray.length(); i++) {
                                 JSONObject jo = jsonArray.getJSONObject(i);
                                 if (jo.get("provimiTitle").equals(imagePoster)) {
                                     Picasso.get().load(String.valueOf(jo.get("provimiPoster"))).into(imageView);
+                                    flag = true;
+                                }else if (!flag){
+                                    Picasso.get().load(defaultUrl).into(imageView);
                                 }
                             }
                         } catch (JSONException e) {

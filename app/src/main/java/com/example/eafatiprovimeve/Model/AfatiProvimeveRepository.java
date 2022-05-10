@@ -14,11 +14,13 @@ import java.util.List;
 public class AfatiProvimeveRepository {
     private AfatiProvimeveDao afatiProvimeveDao;
     private LiveData<List<AfatiProvimeve>> allProvimet;
+    private LiveData<List<AfatiProvimeve>> allProvimetSortedByName;
 
     public AfatiProvimeveRepository(Application application){
         AfatiProvimeveDb database = AfatiProvimeveDb.getInstance(application);
         afatiProvimeveDao = database.afatiProvimeveDao();
         allProvimet = afatiProvimeveDao.getAllProvimet();
+        allProvimetSortedByName = afatiProvimeveDao.getAllProvimetSortedByName();
     }
 
     public void insert(AfatiProvimeve afatiProvimeve){
@@ -39,6 +41,9 @@ public class AfatiProvimeveRepository {
 
     public LiveData<List<AfatiProvimeve>> getAllProvimet(){
         return allProvimet;
+    }
+    public LiveData<List<AfatiProvimeve>> getAllProvimetSortedByName(){
+        return allProvimetSortedByName;
     }
 
     private static class InsertProvimiAsyncTask extends AsyncTask<AfatiProvimeve,Void,Void>{

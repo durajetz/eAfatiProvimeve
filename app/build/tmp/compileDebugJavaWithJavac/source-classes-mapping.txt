@@ -59,7 +59,9 @@ com/example/eafatiprovimeve/View/MainActivity.java
  com.example.eafatiprovimeve.View.MainActivity$3
  com.example.eafatiprovimeve.View.MainActivity$4
  com.example.eafatiprovimeve.View.MainActivity$5
- com.example.eafatiprovimeve.View.MainActivity$5$1
+ com.example.eafatiprovimeve.View.MainActivity$6
+ com.example.eafatiprovimeve.View.MainActivity$6$1
+ com.example.eafatiprovimeve.View.MainActivity$7
 com/example/eafatiprovimeve/databinding/ActivityCalendarPickerBinding.java
  com.example.eafatiprovimeve.databinding.ActivityCalendarPickerBinding
 com/example/eafatiprovimeve/databinding/ActivityLoginBinding.java

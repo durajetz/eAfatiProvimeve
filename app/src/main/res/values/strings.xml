@@ -4,37 +4,53 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="row_title">Title</string>
     <string name="row_date">MM/dd/yyyy</string>
-    <string name="row_day">M4</string>
+    <string name="row_day">Fourth Monday</string>
     <string name="myDate">MM-dd-YYYY</string>
     <string name="title_activity_maps">Map</string>
+    <string name="no_data_available">No exams were found.</string>
     <string-array name="salla_array">
         <item>Choose exam room</item>
-        <item>745</item>
-        <item>611</item>
-        <item>626</item>
-        <item>636</item>
-        <item>616</item>
-        <item>615</item>
-        <item>621</item>
-        <item>411</item>
-        <item>408</item>
-        <item>310</item>
-        <item>201</item>
-        <item>A3</item>
+        <item>Room: 745</item>
+        <item>Room: 611</item>
+        <item>Room: 626</item>
+        <item>Room: 636</item>
+        <item>Room: 616</item>
+        <item>Room: 615</item>
+        <item>Room: 621</item>
+        <item>Room: 411</item>
+        <item>Room: 408</item>
+        <item>Room: 310</item>
+        <item>Room: 201</item>
+        <item>Room: A3</item>
+    </string-array>
+    <string-array name="day_array">
+        <item>Choose day</item>
+        <item>Day: Monday</item>
+        <item>Day: Tuesday</item>
+        <item>Day: Wednesday</item>
+        <item>Day: Thursday</item>
+        <item>Day: Friday</item>
+    </string-array>
+    <string-array name="weekday_array">
+        <item>Choose week day</item>
+        <item>Week: First</item>
+        <item>Week: Second</item>
+        <item>Week: Third</item>
+        <item>Week: Fourth</item>
     </string-array>
     <string-array name="semester_array">
         <item>Choose semester</item>
-        <item>Semester I</item>
-        <item>Semester II</item>
-        <item>Semester III</item>
-        <item>Semester IV</item>
-        <item>Semester V</item>
-        <item>Semester VI</item>
+        <item>Semester: I</item>
+        <item>Semester: II</item>
+        <item>Semester: III</item>
+        <item>Semester: IV</item>
+        <item>Semester: V</item>
+        <item>Semester: VI</item>
     </string-array>
     <string-array name="viti_array">
         <item>Choose year</item>
-        <item>Year I</item>
-        <item>Year II</item>
-        <item>Year III</item>
+        <item>Year: I</item>
+        <item>Year: II</item>
+        <item>Year: III</item>
     </string-array>
 </resources>

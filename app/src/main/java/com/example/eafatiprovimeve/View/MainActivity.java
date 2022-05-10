@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
     private AfatiProvimeveAdapter adapter;
     private static final String TAG = "MainActivity";
     private FirebaseAuth mAuth;
+    private RecyclerView recyclerView;
+    private TextView emptyView;
 
     public static final String LOCATION_EVENT = "Fakulteti i Inxhinierisë Elektrike dhe Kompjuterike,Universiteti i Prishtinës";
     public static final int MY_PERMISSIONS_REQUEST_CALENDAR = 99;
@@ -63,11 +65,17 @@ public class MainActivity extends AppCompatActivity {
     public static final int EDIT_PROVIMI_REQUEST = 2;
     private AfatiProvimeveModel afatiProvimeveModel;
     private Map<String, Integer> weekDays = new HashMap<String, Integer>() {{
-        put("H", 1);
-        put("M", 2);
-        put("MK", 3);
-        put("E", 4);
-        put("P", 5);
+        put("Monday", 1);
+        put("Tuesday", 2);
+        put("Wednesday", 3);
+        put("Thursday", 4);
+        put("Friday", 5);
+    }};
+    private Map<String, Integer> Days = new HashMap<String, Integer>() {{
+        put("First", 1);
+        put("Second", 2);
+        put("Third", 3);
+        put("Fourth", 4);
     }};
 
     @Override
@@ -93,11 +101,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        RecyclerView recyclerView = findViewById(R.id.recycler_view);
+        emptyView = findViewById(R.id.empty_view);
+
+        recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setHasFixedSize(true);
 
-        AfatiProvimeveAdapter adapter = new AfatiProvimeveAdapter(this);
+        adapter = new AfatiProvimeveAdapter(this);
 
         recyclerView.setAdapter(adapter);
 
@@ -111,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onChanged(List<AfatiProvimeve> afatiProvimeves) {
                 // update RecyclerView
-//                Toast.makeText(MainActivity.this, "onChanged", Toast.LENGTH_SHORT).show();
+                checkForData(afatiProvimeves);
                 adapter.setProvimet(afatiProvimeves);
             }
         });
@@ -119,15 +129,17 @@ public class MainActivity extends AppCompatActivity {
         adapter.setOnItemClickListener(new AfatiProvimeveAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(AfatiProvimeve afatiProvimeve) {
-
                 Intent intent = new Intent(MainActivity.this, AddEditActivity.class);
+
                 intent.putExtra(AddEditActivity.EXTRA_ID, afatiProvimeve.getId());
                 intent.putExtra(AddEditActivity.EXTRA_NAME, afatiProvimeve.getName());
-                intent.putExtra(AddEditActivity.EXTRA_DITA, afatiProvimeve.getDita());
+//                intent.putExtra(AddEditActivity.EXTRA_DITA, afatiProvimeve.getDita());
                 intent.putExtra(AddEditActivity.EXTRA_VITI, afatiProvimeve.getViti());
                 intent.putExtra(AddEditActivity.EXTRA_SEMESTRI, afatiProvimeve.getSemestri());
                 intent.putExtra(AddEditActivity.EXTRA_DIFERENCA, afatiProvimeve.getDiferenca());
                 intent.putExtra(AddEditActivity.EXTRA_SALLA, afatiProvimeve.getSalla());
+                intent.putExtra(AddEditActivity.EXTRA_DAY, afatiProvimeve.getDita().split("#")[0]);
+                intent.putExtra(AddEditActivity.EXTRA_WEEKDAY, afatiProvimeve.getDita().split("#")[1]);
 
                 startActivityForResult(intent, EDIT_PROVIMI_REQUEST);
             }
@@ -164,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
                         if (!m.matches()) {
                             addEvent(getApplicationContext(), adapter.getProvimiAt(position).getName(), datagjeneruar.getText().toString(), adapter.getProvimiAt(position).getDita());
                             afatiProvimeveModel.delete(adapter.getProvimiAt(position));
+                            afatiProvimeveModel.insert(adapter.getProvimiAt(position));
 //                            Toast.makeText(MainActivity.this, "email", Toast.LENGTH_SHORT).show();
                         } else {
                             Intent intent = new Intent(Intent.ACTION_INSERT);
@@ -180,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
                             try {
                                 afatiProvimeveModel.delete(adapter.getProvimiAt(position));
+                                afatiProvimeveModel.insert(adapter.getProvimiAt(position));
                                 startActivity(intent);
                             } catch (Exception e) {
                                 Toast.makeText(MainActivity.this, "There is no app that can support this action", Toast.LENGTH_SHORT).show();
@@ -216,16 +230,17 @@ public class MainActivity extends AppCompatActivity {
 
         if (requestCode == ADD_PROVIMI_REQUEST && resultCode == RESULT_OK) {
             String name = data.getStringExtra(AddEditActivity.EXTRA_NAME);
-            String dita = data.getStringExtra(AddEditActivity.EXTRA_DITA);
             String salla = data.getStringExtra(AddEditActivity.EXTRA_SALLA);
             String semestri = data.getStringExtra(AddEditActivity.EXTRA_SEMESTRI);
             String viti = data.getStringExtra(AddEditActivity.EXTRA_VITI);
+            String day = data.getStringExtra(AddEditActivity.EXTRA_DAY);
+            String weekDay = data.getStringExtra(AddEditActivity.EXTRA_WEEKDAY);
 //            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
+            String dita = day + "#" + weekDay;
 
-            String[] part = dita.split("(?<=\\D)(?=\\d)");
-            int day = weekDays.get(part[0]);
-            int weekNumber = Integer.parseInt(part[1]);
-            int diferenca = (7 * (weekNumber - 1) + (day - 1));
+            int dayExtracted = weekDays.get(day.split(" ")[1]);
+            int weekDayExtracted = Days.get(weekDay.split(" ")[1]);
+            int diferenca = (7 * (weekDayExtracted - 1) + (dayExtracted - 1));
             AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca, salla);
             afatiProvimeveModel.insert(afatiProvimeve);
             Toast.makeText(this, "Provimi saved.", Toast.LENGTH_SHORT).show();
@@ -236,15 +251,17 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
             String name = data.getStringExtra(AddEditActivity.EXTRA_NAME);
-            String dita = data.getStringExtra(AddEditActivity.EXTRA_DITA);
             String salla = data.getStringExtra(AddEditActivity.EXTRA_SALLA);
             String semestri = data.getStringExtra(AddEditActivity.EXTRA_SEMESTRI);
             String viti = data.getStringExtra(AddEditActivity.EXTRA_VITI);
+            String day = data.getStringExtra(AddEditActivity.EXTRA_DAY);
+            String weekDay = data.getStringExtra(AddEditActivity.EXTRA_WEEKDAY);
 //            int diferenca = data.getIntExtra(AddEditActivity.EXTRA_DIFERENCA, 1);
-            String[] part = dita.split("(?<=\\D)(?=\\d)");
-            int day = weekDays.get(part[0]);
-            int weekNumber = Integer.parseInt(part[1]);
-            int diferenca = (7 * (weekNumber - 1) + (day - 1));
+            String dita = day + "#" + weekDay;
+
+            int dayExtracted = weekDays.get(day.split(" ")[1]);
+            int weekDayExtracted = Days.get(weekDay.split(" ")[1]);
+            int diferenca = (7 * (weekDayExtracted - 1) + (dayExtracted - 1));
 
             AfatiProvimeve afatiProvimeve = new AfatiProvimeve(name, viti, semestri, dita, diferenca, salla);
             afatiProvimeve.setId(id);
@@ -258,6 +275,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.filter_by_year_menu, menu);
+        menuInflater.inflate(R.menu.filter_by_semester_menu, menu);
+        menuInflater.inflate(R.menu.sort_by_menu, menu);
+        menuInflater.inflate(R.menu.show_all_menu, menu);
         menuInflater.inflate(R.menu.delete_all_menu, menu);
         menuInflater.inflate(R.menu.googlemap, menu);
         return true;
@@ -265,10 +286,84 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        List<AfatiProvimeve> afatiProvimeves;
         switch (item.getItemId()) {
+            case R.id.sort_by_name:
+                afatiProvimeveModel.getAllProvimetSortedByName().observe(this, new Observer<List<AfatiProvimeve>>() {
+                    @Override
+                    public void onChanged(List<AfatiProvimeve> afatiProvimeves) {
+                        // update RecyclerView
+                        checkForData(afatiProvimeves);
+                        adapter.setProvimet(afatiProvimeves);
+                    }
+                });
+                return true;
+            case R.id.sort_by_date:
+//                afatiProvimeves = afatiProvimeveModel.getProvimetSorted("date");
+//                adapter.setProvimet(afatiProvimeves);
+            case R.id.show_all_provimet:
+                afatiProvimeves = afatiProvimeveModel.getAllProvimet().getValue();
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "All exams", Toast.LENGTH_SHORT).show();
+                return true;
             case R.id.delete_all_provimet:
                 afatiProvimeveModel.deleteAllProvimet();
-                Toast.makeText(this, "All notes deleted", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "All exams deleted", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.year_one:
+                afatiProvimeves = afatiProvimeveModel.getProvimetByYear("Year: I");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams year one filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.year_two:
+                afatiProvimeves = afatiProvimeveModel.getProvimetByYear("Year: II");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams year two filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.year_three:
+                afatiProvimeves = afatiProvimeveModel.getProvimetByYear("Year: III");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams year three filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_one:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: I");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster one filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_two:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: II");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster two filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_three:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: III");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster three filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_four:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: IV");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster four filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_five:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: V");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster five filtered", Toast.LENGTH_SHORT).show();
+                return true;
+            case R.id.semester_six:
+                afatiProvimeves = afatiProvimeveModel.getProvimetBySemster("Semester: VI");
+                checkForData(afatiProvimeves);
+                adapter.setProvimet(afatiProvimeves);
+                Toast.makeText(this, "Exams semster six filtered", Toast.LENGTH_SHORT).show();
                 return true;
             case R.id.location:
                 startActivity(new Intent(MainActivity.this, MapsActivity.class));
@@ -370,5 +465,16 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return dateSample.getTime();
+    }
+
+    private void checkForData(List<AfatiProvimeve> provimeveList) {
+        if (provimeveList.size() == 0) {
+            recyclerView.setVisibility(View.GONE);
+            emptyView.setVisibility(View.VISIBLE);
+        } else {
+            recyclerView.setVisibility(View.VISIBLE);
+            emptyView.setVisibility(View.GONE);
+//            Snackbar.make(MainActivity.this, provimeveList.size() + " exams were found.", Snackbar.LENGTH_LONG);
+        }
     }
 }

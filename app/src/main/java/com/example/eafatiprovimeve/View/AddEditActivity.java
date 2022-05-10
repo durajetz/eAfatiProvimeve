@@ -17,21 +17,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.eafatiprovimeve.R;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class AddEditActivity extends AppCompatActivity {
     public static final String EXTRA_ID = "com.example.eafatiprovimeve.EXTRA_ID";
     public static final String EXTRA_NAME = "com.example.eafatiprovimeve.EXTRA_NAME";
     public static final String EXTRA_DIFERENCA = "com.example.eafatiprovimeve.EXTRA_DIFERENCA";
     public static final String EXTRA_VITI = "com.example.eafatiprovimeve.EXTRA_VITI";
     public static final String EXTRA_SEMESTRI = "com.example.eafatiprovimeve.EXTRA_SEMESTRI";
-    public static final String EXTRA_DITA = "com.example.eafatiprovimeve.EXTRA_DITA";
+//    public static final String EXTRA_DITA = "com.example.eafatiprovimeve.EXTRA_DITA";
     public static final String EXTRA_SALLA = "com.example.eafatiprovimeve.EXTRA_SALLA";
+    public static final String EXTRA_DAY = "com.example.eafatiprovimeve.EXTRA_DAY";
+    public static final String EXTRA_WEEKDAY = "com.example.eafatiprovimeve.EXTRA_WEEKDAY";
 
     private EditText editTextName, editTextDita;
     private ImageView logoAddEdit;
-    private Spinner sallaSpinner, semesterSpinner, yearSpinner;
+    private Spinner sallaSpinner, semesterSpinner, yearSpinner, daySpinner, weekDaySpinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +38,7 @@ public class AddEditActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_edit);
 
         editTextName = findViewById(R.id.edit_text_name);
-        editTextDita = findViewById(R.id.edit_text_dita);
+//        editTextDita = findViewById(R.id.edit_text_dita);
 //        editTextDiferenca = findViewById(R.id.edit_text_difference);
         logoAddEdit = findViewById(R.id.logo_imageview);
 
@@ -61,6 +60,18 @@ public class AddEditActivity extends AppCompatActivity {
         year_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         yearSpinner.setAdapter(year_adapter);
 
+        daySpinner = findViewById(R.id.day_spinner);
+        ArrayAdapter<CharSequence> day_adapter = ArrayAdapter.createFromResource(this,
+                R.array.day_array, android.R.layout.simple_spinner_item);
+        day_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        daySpinner.setAdapter(day_adapter);
+
+        weekDaySpinner = findViewById(R.id.weekday_spinner);
+        ArrayAdapter<CharSequence> weekday_adapter = ArrayAdapter.createFromResource(this,
+                R.array.weekday_array, android.R.layout.simple_spinner_item);
+        weekday_adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        weekDaySpinner.setAdapter(weekday_adapter);
+
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_close);
 
         Intent intent = getIntent();
@@ -71,8 +82,10 @@ public class AddEditActivity extends AppCompatActivity {
             sallaSpinner.setSelection(salla_adapter.getPosition(intent.getStringExtra(EXTRA_SALLA)));
             semesterSpinner.setSelection(semester_adapter.getPosition(intent.getStringExtra(EXTRA_SEMESTRI)));
             yearSpinner.setSelection(year_adapter.getPosition(intent.getStringExtra(EXTRA_VITI)));
+            daySpinner.setSelection(day_adapter.getPosition(intent.getStringExtra(EXTRA_DAY)));
+            weekDaySpinner.setSelection(weekday_adapter.getPosition(intent.getStringExtra(EXTRA_WEEKDAY)));
             editTextName.setText(intent.getStringExtra(EXTRA_NAME));
-            editTextDita.setText(intent.getStringExtra(EXTRA_DITA));
+//            editTextDita.setText(intent.getStringExtra(EXTRA_DITA));
 //            editTextDiferenca.setText(String.valueOf(intent.getIntExtra(EXTRA_DIFERENCA, 1)));
         } else {
             logoAddEdit.setImageDrawable(getResources().getDrawable(R.drawable.ic_add_circle));
@@ -85,17 +98,21 @@ public class AddEditActivity extends AppCompatActivity {
         String salla = sallaSpinner.getSelectedItem().toString();
         String semestri = semesterSpinner.getSelectedItem().toString();
         String name = editTextName.getText().toString();
-        String dita = editTextDita.getText().toString();
+//        String dita = editTextDita.getText().toString();
         String viti = yearSpinner.getSelectedItem().toString();
+        String day = daySpinner.getSelectedItem().toString();
+        String weekDay = weekDaySpinner.getSelectedItem().toString();
 //        int diferenca = Integer.parseInt(editTextDiferenca.getText().toString());
 
         Intent data = new Intent();
         data.putExtra(EXTRA_NAME, name);
-        data.putExtra(EXTRA_DITA, dita);
+//        data.putExtra(EXTRA_DITA, dita);
 //        data.putExtra(EXTRA_DIFERENCA, diferenca);
         data.putExtra(EXTRA_VITI, viti);
         data.putExtra(EXTRA_SEMESTRI, semestri);
         data.putExtra(EXTRA_SALLA, salla);
+        data.putExtra(EXTRA_DAY, day);
+        data.putExtra(EXTRA_WEEKDAY, weekDay);
 
         int id = getIntent().getIntExtra(EXTRA_ID, -1);
         if (id != -1) {
@@ -123,13 +140,13 @@ public class AddEditActivity extends AppCompatActivity {
                     return false;
                 }
 
-                Pattern p = Pattern.compile("^(H|M|E|P|MK)[1-4]{1}");
-                Matcher m = p.matcher(editTextDita.getText().toString().trim());
-                if (!m.matches()) {
-                    editTextDita.setError("Format [Day and WeekNumber]: \n{H|M|MK|E|P}{1-4}");
-                    editTextDita.requestFocus();
-                    return false;
-                }
+//                Pattern p = Pattern.compile("^(H|M|E|P|MK)[1-4]{1}");
+//                Matcher m = p.matcher(editTextDita.getText().toString().trim());
+//                if (!m.matches()) {
+//                    editTextDita.setError("Format [Day and WeekNumber]: \n{H|M|MK|E|P}{1-4}");
+//                    editTextDita.requestFocus();
+//                    return false;
+//                }
 
                 if (yearSpinner.getSelectedItem().toString().trim().equals("Choose year")) {
                     TextView errorText = (TextView) yearSpinner.getSelectedView();
@@ -147,23 +164,37 @@ public class AddEditActivity extends AppCompatActivity {
                     semesterSpinner.requestFocus();
                     return false;
                 }
-                if (editTextDita.getText().toString().trim().isEmpty()) {
-                    editTextDita.setError("Dita is required!");
-                    editTextDita.requestFocus();
-                    return false;
-                }
+
 //                if (editTextDiferenca.getText().toString().trim().isEmpty()) {
 //                    editTextDiferenca.setError("Difference is required!");
 //                    editTextDiferenca.requestFocus();
 //                    return false;
 //                }
 
-                if (sallaSpinner.getSelectedItem().toString().trim().equals("Choose exam place")) {
-                    TextView errorText = (TextView) sallaSpinner.getSelectedView();
+//                if (sallaSpinner.getSelectedItem().toString().trim().equals("Choose exam place")) {
+//                    TextView errorText = (TextView) sallaSpinner.getSelectedView();
+//                    errorText.setError("");
+//                    errorText.setTextColor(Color.RED);//just to highlight that this is an error
+//                    errorText.setText("Exam place is required!");//changes the selected item text to this
+//                    sallaSpinner.requestFocus();
+//                    return false;
+//                }
+
+                if (daySpinner.getSelectedItem().toString().trim().equals("Choose day")) {
+                    TextView errorText = (TextView) daySpinner.getSelectedView();
                     errorText.setError("");
                     errorText.setTextColor(Color.RED);//just to highlight that this is an error
-                    errorText.setText("Exam place is required!");//changes the selected item text to this
-                    sallaSpinner.requestFocus();
+                    errorText.setText("Day is required!");//changes the selected item text to this
+                    daySpinner.requestFocus();
+                    return false;
+                }
+
+                if (weekDaySpinner.getSelectedItem().toString().trim().equals("Choose week day")) {
+                    TextView errorText = (TextView) weekDaySpinner.getSelectedView();
+                    errorText.setError("");
+                    errorText.setTextColor(Color.RED);//just to highlight that this is an error
+                    errorText.setText("Week day is required!");//changes the selected item text to this
+                    weekDaySpinner.requestFocus();
                     return false;
                 }
                 saveProvimi();
